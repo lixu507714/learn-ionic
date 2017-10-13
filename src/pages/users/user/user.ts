@@ -20,4 +20,5 @@ export class UserPage implements OnInit {
     //this.navCtrl.pop(); // 删除并返回数组的最后一个元素
     this.navCtrl.popToRoot(); // 跳转到首页
   }
+
 }
