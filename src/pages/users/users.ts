@@ -15,11 +15,11 @@ export class UsersPage {
   }
 
   // ionic 的生命周期
-  // ionViewCanEnter(): boolean | Promise<boolean> {
-  //   console.log('ionViewCanEnter');
-  //   const rad = Math.random();
-  //     return rad >0.1;
-  // }
+  ionViewCanEnter(): boolean | Promise<boolean> {
+    console.log('ionViewCanEnter');
+    const rad = Math.random();
+      return rad >0.1;
+  }
 
   // ionViewDidLoad() {
   //   console.log('ionViewDidLoad');
@@ -41,7 +41,6 @@ export class UsersPage {
   //   });
   //   return promise;
   //};
-
 
   // ionViewDidLoad	当页面加载的时候触发，仅在页面创建的时候触发一次，如果被缓存了，那么下次再打开这个页面则不会触发
   // ionViewWillEnter	顾名思义，当将要进入页面时触发

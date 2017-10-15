@@ -13,6 +13,6 @@ export class HomePage {
 
   toUsersPage() {
     this.navCtrl.push(this.userPage)
-      .catch((error) => console.log('Access denied, Argument was' + error));  // ??? 未打印出来
+      .catch((error) => console.log('Access denied, Argument was' + error));  //  捕捉错误
   }
 }
