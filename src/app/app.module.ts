@@ -8,13 +8,25 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import {UsersPage} from "../pages/users/users";
 import {UserPage} from "../pages/users/user/user";
+import {FavoritesPage} from "../pages/favorites/favorites";
+import {LibraryPage} from "../pages/library/library";
+import {QuotePage} from "../pages/quote/quote";
+import {QuotesPage} from "../pages/quotes/quotes";
+import {SettingsPage} from "../pages/settings/settings";
+import {TabsPage} from "../pages/tabs/tabs";
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     UsersPage,
-    UserPage
+    UserPage,
+    FavoritesPage,
+    LibraryPage,
+    QuotePage,
+    QuotesPage,
+    SettingsPage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +37,13 @@ import {UserPage} from "../pages/users/user/user";
     MyApp,
     HomePage,
     UsersPage,
-    UserPage
+    UserPage,
+    FavoritesPage,
+    LibraryPage,
+    QuotePage,
+    QuotesPage,
+    SettingsPage,
+    TabsPage
   ],
   providers: [
     StatusBar,
