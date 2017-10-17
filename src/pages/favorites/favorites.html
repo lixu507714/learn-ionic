@@ -7,12 +7,17 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>favorites</ion-title>
+    <ion-title>Favorites Quotes</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+  <ion-list>
+    <ion-item *ngFor="let quote of quotes" (click)="onFavorite(quote)">
+      <h3>{{quote.person}}</h3>
+      <p>{{quote.text}}</p>
+    </ion-item>
+  </ion-list>
 </ion-content>

@@ -1,7 +1,8 @@
 import {Component, OnInit} from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import {ModalController, NavController} from 'ionic-angular';
 import {Quote} from '../../data/quotes.interface';
-import quotes from '../../data/quotes';
+import {QuotesService} from "../../services/quotes";
+import {QuotePage} from '../quote/quote';
 
 @Component({
   selector: 'page-favorites',
@@ -9,13 +10,23 @@ import quotes from '../../data/quotes';
 })
 export class FavoritesPage implements OnInit{
 
-  quoteCollection: {category: string, quotes: Quote[], icon: string}[];
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-
+  quotes: Quote[];
+  constructor(public navCtrl: NavController,
+              private quoteService: QuotesService,
+              private modalCtrl: ModalController) {
   }
 
   ngOnInit() {
-    this.quoteCollection = quotes;
+
   }
 
+  ionViewWillEnter() {
+    this.quotes = this.quoteService.getQuoteFavorite();
+  }
+
+  onFavorite(quote: Quote) {
+    const modal = this.modalCtrl.create(QuotePage, quote);
+    console.log(modal);
+    modal.present();
+  };
 }

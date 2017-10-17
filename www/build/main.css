@@ -25512,6 +25512,18 @@ ion-navbar.toolbar {
   min-height: calc(46px + constant(safe-area-inset-top));
 }
 
+page-quotes .author {
+  color: #ccc;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+page-quotes .author:before {
+  content: '- ';
+}
+
 page-users p {
   background-color: #51a7e8;
   padding: 10px;

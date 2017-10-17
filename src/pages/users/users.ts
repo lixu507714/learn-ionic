@@ -25,7 +25,7 @@ export class UsersPage {
   //   console.log('ionViewDidLoad');
   // };
   //
-  // ionViewViewEnter() {
+  // ionViewWillEnter() {
   //   console.log('ionViewViewEnter');
   // };
   //
