@@ -19,7 +19,7 @@ export class QuotePage {
     this.text = this.navParams.get('text');
   }
 
-  onClose() {
-    this.viewCtrl.dismiss() // 移除本身
+  onClose(remove = false) {
+    this.viewCtrl.dismiss(remove); // 移除本身
   }
 }

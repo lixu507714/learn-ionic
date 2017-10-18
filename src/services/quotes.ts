@@ -20,4 +20,11 @@ export class QuotesService {
   getQuoteFavorite(): Quote[] {
     return this.favoriteQuote.slice();
   }
+
+  // 判断
+  isQuoteFavorite(quote: Quote) {
+    return this.favoriteQuote.find((quoteEl: Quote) => {
+      return quoteEl.id == quote.id;
+    })
+  }
 }
