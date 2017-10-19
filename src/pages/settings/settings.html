@@ -15,12 +15,12 @@
 
 <ion-content padding>
   <ion-grid>
-    <ion-row>
+    <ion-row style="overflow: hidden;">
       <ion-col>
         <ion-label>Alternative Background</ion-label>
       </ion-col>
-      <ion-col>
-        <ion-toggle (ionChange)="onToggle($event)" [checked]="checkAltBackground()"></ion-toggle>
+      <ion-col style="flex-grow: 0;flex-basis: 0;">
+        <ion-toggle style="width: 51px;position: relative; contain: content;" (ionChange)="onToggle($event)" [checked]="checkAltBackground()"></ion-toggle>
       </ion-col>
     </ion-row>
   </ion-grid>
