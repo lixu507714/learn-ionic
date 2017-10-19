@@ -78,6 +78,7 @@ TabsPage = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_quotes__ = __webpack_require__(99);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__quote_quote__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__services_settings__ = __webpack_require__(272);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -91,11 +92,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
 var FavoritesPage = (function () {
-    function FavoritesPage(navCtrl, quoteService, modalCtrl) {
+    function FavoritesPage(navCtrl, quoteService, modalCtrl, settingsService) {
         this.navCtrl = navCtrl;
         this.quoteService = quoteService;
         this.modalCtrl = modalCtrl;
+        this.settingsService = settingsService;
     }
     FavoritesPage.prototype.ngOnInit = function () {
     };
@@ -120,17 +123,20 @@ var FavoritesPage = (function () {
         });
         this.quotes.splice(position, 1);
     };
+    // 按钮选中改变背景色
+    FavoritesPage.prototype.changeBackground = function () {
+        return this.settingsService.isAltBackground();
+    };
     return FavoritesPage;
 }());
 FavoritesPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-favorites',template:/*ion-inline-start:"/Users/lixu/learn-ionic/src/pages/favorites/favorites.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Favorites Quotes</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n  <ion-list>\n    <ion-item-sliding *ngFor="let quote of quotes">\n      <ion-item color="quoteBackground" (click)="onFavorite(quote)">\n        <h3>{{quote.person}}</h3>\n        <p>{{quote.text}}</p>\n      </ion-item>\n      <ion-item-options>\n        <button ion-button color="danger" (click)="onRemoveFromFavorites(quote)"><ion-icon name="trash"></ion-icon>Delete</button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/lixu/learn-ionic/src/pages/favorites/favorites.html"*/,
+        selector: 'page-favorites',template:/*ion-inline-start:"/Users/lixu/learn-ionic/src/pages/favorites/favorites.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>Favorites Quotes</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n  <ion-list>\n    <ion-item-sliding *ngFor="let quote of quotes">\n      <ion-item\n        color="quoteBackground"\n        [ngClass]="{alt: changeBackground()}"\n        (click)="onFavorite(quote)">\n        <h3>{{quote.person}}</h3>\n        <p>{{quote.text}}</p>\n      </ion-item>\n      <ion-item-options>\n        <button ion-button color="danger" (click)="onRemoveFromFavorites(quote)"><ion-icon name="trash"></ion-icon>Delete</button>\n      </ion-item-options>\n    </ion-item-sliding>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/lixu/learn-ionic/src/pages/favorites/favorites.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
-        __WEBPACK_IMPORTED_MODULE_2__services_quotes__["a" /* QuotesService */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__services_quotes__["a" /* QuotesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_quotes__["a" /* QuotesService */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__services_settings__["a" /* SettingsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__services_settings__["a" /* SettingsService */]) === "function" && _d || Object])
 ], FavoritesPage);
 
+var _a, _b, _c, _d;
 //# sourceMappingURL=favorites.js.map
 
 /***/ }),
@@ -315,6 +321,7 @@ QuotesPage = __decorate([
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(15);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_settings__ = __webpack_require__(272);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -326,13 +333,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var SettingsPage = (function () {
-    function SettingsPage(navCtrl, navParams) {
+    function SettingsPage(navCtrl, navParams, settingsService) {
         this.navCtrl = navCtrl;
         this.navParams = navParams;
+        this.settingsService = settingsService;
     }
     SettingsPage.prototype.onToggle = function (toggle) {
         console.log(toggle);
+        this.settingsService.setBackground(toggle.checked);
+    };
+    SettingsPage.prototype.checkAltBackground = function () {
+        return this.settingsService.isAltBackground();
     };
     return SettingsPage;
 }());
@@ -340,9 +353,10 @@ SettingsPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
         selector: 'page-settings',template:/*ion-inline-start:"/Users/lixu/learn-ionic/src/pages/settings/settings.html"*/'\n<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-title>settings</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-grid>\n    <ion-row>\n      <ion-col>\n        <ion-label>Alternative Background</ion-label>\n      </ion-col>\n      <ion-col>\n        <ion-toggle (ionChange)="onToggle($event)" [checked]="checkAltBackground()"></ion-toggle>\n      </ion-col>\n    </ion-row>\n  </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/Users/lixu/learn-ionic/src/pages/settings/settings.html"*/,
     }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__services_settings__["a" /* SettingsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__services_settings__["a" /* SettingsService */]) === "function" && _c || Object])
 ], SettingsPage);
 
+var _a, _b, _c;
 //# sourceMappingURL=settings.js.map
 
 /***/ }),
@@ -472,12 +486,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_settings_settings__ = __webpack_require__(198);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_tabs_tabs__ = __webpack_require__(193);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__services_quotes__ = __webpack_require__(99);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__services_settings__ = __webpack_require__(272);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -536,7 +552,7 @@ AppModule = __decorate([
             __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */],
             __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
             { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["v" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicErrorHandler */] },
-            __WEBPACK_IMPORTED_MODULE_15__services_quotes__["a" /* QuotesService */]
+            __WEBPACK_IMPORTED_MODULE_15__services_quotes__["a" /* QuotesService */], __WEBPACK_IMPORTED_MODULE_16__services_settings__["a" /* SettingsService */]
         ]
     })
 ], AppModule);
@@ -694,6 +710,28 @@ HomePage = __decorate([
 ], HomePage);
 
 //# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 272:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SettingsService; });
+var SettingsService = (function () {
+    function SettingsService() {
+        this.altBackground = false;
+    }
+    SettingsService.prototype.setBackground = function (isAll) {
+        this.altBackground = isAll;
+    };
+    SettingsService.prototype.isAltBackground = function () {
+        return this.altBackground;
+    };
+    return SettingsService;
+}());
+
+//# sourceMappingURL=settings.js.map
 
 /***/ }),
 
