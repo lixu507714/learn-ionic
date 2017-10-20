@@ -16,6 +16,8 @@ import {SettingsPage} from "../pages/settings/settings";
 import {TabsPage} from "../pages/tabs/tabs";
 import {QuotesService} from "../services/quotes";
 import {SettingsService} from "../services/settings";
+import {ListPage} from "../pages/list/list";
+import {ResetComponent} from "../component/reset.component";
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import {SettingsService} from "../services/settings";
     QuotePage,
     QuotesPage,
     SettingsPage,
-    TabsPage
+    TabsPage,
+    ListPage,
+    ResetComponent
   ],
   imports: [
     BrowserModule,
@@ -45,7 +49,8 @@ import {SettingsService} from "../services/settings";
     QuotePage,
     QuotesPage,
     SettingsPage,
-    TabsPage
+    TabsPage,
+    ListPage
   ],
   providers: [
     StatusBar,

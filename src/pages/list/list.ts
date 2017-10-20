@@ -1,25 +1,38 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { NavController, NavParams } from 'ionic-angular';
 
-/**
- * Generated class for the ListPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
-@IonicPage()
 @Component({
   selector: 'page-list',
   templateUrl: 'list.html',
 })
 export class ListPage {
 
+  tapped = 0;
+  pressed = 0;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
+  onDisReset(resetType: string) {
+    switch (resetType) {
+      case 'tap':
+        this.tapped = 0;
+        break;
+      case 'press':
+        this.pressed = 0;
+        break;
+      default:
+        this.tapped = 0;
+        this.pressed = 0;
+    }
+  }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad ListPage');
+  onTap() {
+    console.log('taps');
+    this.tapped++;
+  }
+
+  onPress() {
+    console.log('press');
+    this.pressed++;
   }
 
 }
