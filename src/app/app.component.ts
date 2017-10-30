@@ -5,16 +5,20 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import {TabsPage} from "../pages/tabs/tabs";
 import {SettingsPage} from "../pages/settings/settings";
 import {ListPage} from "../pages/list/list";
+import {ShoppingListPage} from "../pages/shopping-list/shopping-list";
+import {SecondTabsPage} from "../component/second-tab";
+import {FavoritesPage} from "../pages/favorites/favorites";
 
 @Component({
   templateUrl: 'app.html'
 })
 export class MyApp {
-  // rootPage:any = HomePage；
-  // rootPage = TabsPage;
-  tabsPage = TabsPage;
+  tabsPage: any = TabsPage;
   settingsPage = SettingsPage;
   assignment = ListPage;
+  favoritesPage = FavoritesPage;
+  shoppingPage = ShoppingListPage;
+
   @ViewChild ('nav') nav: NavController;
   constructor(platform: Platform,
               statusBar: StatusBar,
@@ -28,9 +32,15 @@ export class MyApp {
     });
   }
 
-  onLoad(page: any) {
-    this.nav.setRoot(page); // 动态替换rootpage
+  onLoad(page: any, idx?: number) {
     this.menuCtrl.close();
+    if (idx === 4) {
+      this.tabsPage = SecondTabsPage;
+    } else if (idx === 1) {
+      this.tabsPage = TabsPage;
+    } else {
+      this.nav.push(page); // 动态替换rootpage
+    }
   }
 }
 

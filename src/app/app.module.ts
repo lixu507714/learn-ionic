@@ -18,6 +18,13 @@ import {QuotesService} from "../services/quotes";
 import {SettingsService} from "../services/settings";
 import {ListPage} from "../pages/list/list";
 import {ResetComponent} from "../component/reset.component";
+import {SecondTabsPage} from "../component/second-tab";
+import {ShoppingListPage} from "../pages/shopping-list/shopping-list";
+import {EditRecipePage} from "../pages/edit-recipe/edit-recipe";
+import {RecipePage} from "../pages/recipe/recipe";
+import {RecipesPage} from "../pages/recipes/recipes";
+import {ShoppingListService} from "../services/shopping-list";
+import {RecipesService} from "../services/recipes";
 
 @NgModule({
   declarations: [
@@ -32,7 +39,12 @@ import {ResetComponent} from "../component/reset.component";
     SettingsPage,
     TabsPage,
     ListPage,
-    ResetComponent
+    ResetComponent,
+    SecondTabsPage,
+    ShoppingListPage,
+    EditRecipePage,
+    RecipePage,
+    RecipesPage
   ],
   imports: [
     BrowserModule,
@@ -50,13 +62,18 @@ import {ResetComponent} from "../component/reset.component";
     QuotesPage,
     SettingsPage,
     TabsPage,
-    ListPage
+    ListPage,
+    SecondTabsPage,
+    ShoppingListPage,
+    EditRecipePage,
+    RecipePage,
+    RecipesPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    QuotesService, SettingsService
+    QuotesService, SettingsService, ShoppingListService, RecipesService
   ]
 })
 export class AppModule {}

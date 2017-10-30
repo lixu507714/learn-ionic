@@ -6,7 +6,7 @@
   </ion-header>
   <ion-content>
     <ion-list>
-      <button ion-item (click)="onLoad(tabsPage)">
+      <button ion-item (click)="onLoad(favoritesPage, 1)">
         <ion-icon name="quote" item-left></ion-icon>Quotes
       </button>
       <button ion-item (click)="onLoad(settingsPage)">
@@ -14,6 +14,9 @@
       </button>
       <button ion-item (click)="onLoad(assignment)">
         <ion-icon name="list" item-left></ion-icon>Assignments
+      </button>
+      <button ion-item (click)="onLoad(shoppingPage, 4)">
+        <ion-icon name="cart" item-left></ion-icon>shopping
       </button>
     </ion-list>
   </ion-content>

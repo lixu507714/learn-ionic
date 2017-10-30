@@ -5539,9 +5539,19 @@ ion-badge:empty {
   background-color: #ffbb00;
 }
 
+.badge-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
 .badge-ios-secondary {
   color: #fff;
   background-color: #32db64;
+}
+
+.badge-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
 }
 
 .badge-ios-danger {
@@ -5580,9 +5590,19 @@ ion-badge:empty {
   background-color: #ffbb00;
 }
 
+.badge-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
 .badge-md-secondary {
   color: #fff;
   background-color: #32db64;
+}
+
+.badge-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
 }
 
 .badge-md-danger {
@@ -5621,9 +5641,19 @@ ion-badge:empty {
   background-color: #ffbb00;
 }
 
+.badge-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
 .badge-wp-secondary {
   color: #fff;
   background-color: #32db64;
+}
+
+.badge-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
 }
 
 .badge-wp-danger {
@@ -5883,6 +5913,40 @@ button[disabled],
   color: #ffbb00;
 }
 
+.button-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.button-ios-primaryTwo.activated {
+  background-color: #c1884f;
+}
+
+.button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.button-clear-ios-primaryTwo {
+  border-color: transparent;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.button-clear-ios-primaryTwo.activated {
+  opacity: 0.4;
+}
+
+.button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
 .button-ios-secondary {
   color: #fff;
   background-color: #32db64;
@@ -5915,6 +5979,40 @@ button[disabled],
 
 .button-clear-ios-secondary:hover:not(.disable-hover) {
   color: #32db64;
+}
+
+.button-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.button-ios-secondaryT.activated {
+  background-color: #85d92f;
+}
+
+.button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.button-clear-ios-secondaryT {
+  border-color: transparent;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.button-clear-ios-secondaryT.activated {
+  opacity: 0.4;
+}
+
+.button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
 }
 
 .button-ios-danger {
@@ -6282,6 +6380,58 @@ button[disabled],
   color: #ffbb00;
 }
 
+.button-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.button-md-primaryTwo:hover:not(.disable-hover) {
+  background-color: #bc7e40;
+}
+
+.button-md-primaryTwo.activated {
+  background-color: #c1884f;
+  opacity: 1;
+}
+
+.button-md-primaryTwo .button-effect {
+  background-color: #fff;
+}
+
+.button-outline-md-primaryTwo {
+  border-color: #bf844a;
+  color: #bf844a;
+  background-color: transparent;
+}
+
+.button-outline-md-primaryTwo:hover:not(.disable-hover) {
+  background-color: rgba(158, 158, 158, 0.1);
+}
+
+.button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.button-outline-md-primaryTwo .button-effect {
+  background-color: #bf844a;
+}
+
+.button-clear-md-primaryTwo {
+  border-color: transparent;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.button-clear-md-primaryTwo.activated {
+  background-color: rgba(158, 158, 158, 0.2);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.button-clear-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
 .button-md-secondary {
   color: #fff;
   background-color: #32db64;
@@ -6332,6 +6482,58 @@ button[disabled],
 
 .button-clear-md-secondary:hover:not(.disable-hover) {
   color: #32db64;
+}
+
+.button-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.button-md-secondaryT:hover:not(.disable-hover) {
+  background-color: #7ad61d;
+}
+
+.button-md-secondaryT.activated {
+  background-color: #85d92f;
+  opacity: 1;
+}
+
+.button-md-secondaryT .button-effect {
+  background-color: #fff;
+}
+
+.button-outline-md-secondaryT {
+  border-color: #81d828;
+  color: #81d828;
+  background-color: transparent;
+}
+
+.button-outline-md-secondaryT:hover:not(.disable-hover) {
+  background-color: rgba(158, 158, 158, 0.1);
+}
+
+.button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.button-outline-md-secondaryT .button-effect {
+  background-color: #81d828;
+}
+
+.button-clear-md-secondaryT {
+  border-color: transparent;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.button-clear-md-secondaryT.activated {
+  background-color: rgba(158, 158, 158, 0.2);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.button-clear-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
 }
 
 .button-md-danger {
@@ -6727,6 +6929,48 @@ button[disabled],
   color: #ffbb00;
 }
 
+.button-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.button-wp-primaryTwo:hover:not(.disable-hover) {
+  border-color: #c1884f;
+  background-color: #bc7e40;
+}
+
+.button-wp-primaryTwo.activated {
+  background-color: #c1884f;
+}
+
+.button-outline-wp-primaryTwo {
+  border-color: #bf844a;
+  color: #bf844a;
+  background-color: transparent;
+}
+
+.button-outline-wp-primaryTwo:hover:not(.disable-hover) {
+  border-color: #bf844a;
+  background-color: rgba(158, 158, 158, 0.1);
+}
+
+.button-outline-wp-primaryTwo.activated {
+  background-color: rgba(191, 132, 74, 0.16);
+}
+
+.button-clear-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.button-clear-wp-primaryTwo.activated {
+  background-color: rgba(158, 158, 158, 0.2);
+}
+
+.button-clear-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
 .button-wp-secondary {
   color: #fff;
   background-color: #32db64;
@@ -6767,6 +7011,48 @@ button[disabled],
 
 .button-clear-wp-secondary:hover:not(.disable-hover) {
   color: #32db64;
+}
+
+.button-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.button-wp-secondaryT:hover:not(.disable-hover) {
+  border-color: #85d92f;
+  background-color: #7ad61d;
+}
+
+.button-wp-secondaryT.activated {
+  background-color: #85d92f;
+}
+
+.button-outline-wp-secondaryT {
+  border-color: #81d828;
+  color: #81d828;
+  background-color: transparent;
+}
+
+.button-outline-wp-secondaryT:hover:not(.disable-hover) {
+  border-color: #81d828;
+  background-color: rgba(158, 158, 158, 0.1);
+}
+
+.button-outline-wp-secondaryT.activated {
+  background-color: rgba(129, 216, 40, 0.16);
+}
+
+.button-clear-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.button-clear-wp-secondaryT.activated {
+  background-color: rgba(158, 158, 158, 0.2);
+}
+
+.button-clear-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
 }
 
 .button-wp-danger {
@@ -7113,11 +7399,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-ios-primary .text-ios-primaryTwo,
+.card-ios-primary .card-header-ios-primaryTwo,
+.card-ios-primary .card-title-ios-primaryTwo,
+.card-ios-primary .card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-ios-primary .text-ios-secondary,
 .card-ios-primary .card-header-ios-secondary,
 .card-ios-primary .card-title-ios-secondary,
 .card-ios-primary .card-content-ios-secondary {
   color: #32db64;
+}
+
+.card-ios-primary .text-ios-secondaryT,
+.card-ios-primary .card-header-ios-secondaryT,
+.card-ios-primary .card-title-ios-secondaryT,
+.card-ios-primary .card-content-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .card-ios-primary .text-ios-danger,
@@ -7161,6 +7461,91 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-ios .text-ios-primaryTwo {
+  color: #bc7e40;
+}
+
+.card-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.card-ios-primaryTwo .card-header-ios,
+.card-ios-primaryTwo .card-title-ios,
+.card-ios-primaryTwo .card-content-ios,
+.card-ios-primaryTwo p {
+  color: #fff;
+}
+
+.card-ios-primaryTwo .text-ios-primary,
+.card-ios-primaryTwo .card-header-ios-primary,
+.card-ios-primaryTwo .card-title-ios-primary,
+.card-ios-primaryTwo .card-content-ios-primary {
+  color: #ffbb00;
+}
+
+.card-ios-primaryTwo .text-ios-primaryTwo,
+.card-ios-primaryTwo .card-header-ios-primaryTwo,
+.card-ios-primaryTwo .card-title-ios-primaryTwo,
+.card-ios-primaryTwo .card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
+.card-ios-primaryTwo .text-ios-secondary,
+.card-ios-primaryTwo .card-header-ios-secondary,
+.card-ios-primaryTwo .card-title-ios-secondary,
+.card-ios-primaryTwo .card-content-ios-secondary {
+  color: #32db64;
+}
+
+.card-ios-primaryTwo .text-ios-secondaryT,
+.card-ios-primaryTwo .card-header-ios-secondaryT,
+.card-ios-primaryTwo .card-title-ios-secondaryT,
+.card-ios-primaryTwo .card-content-ios-secondaryT {
+  color: #7ad61d;
+}
+
+.card-ios-primaryTwo .text-ios-danger,
+.card-ios-primaryTwo .card-header-ios-danger,
+.card-ios-primaryTwo .card-title-ios-danger,
+.card-ios-primaryTwo .card-content-ios-danger {
+  color: #f53d3d;
+}
+
+.card-ios-primaryTwo .text-ios-light,
+.card-ios-primaryTwo .card-header-ios-light,
+.card-ios-primaryTwo .card-title-ios-light,
+.card-ios-primaryTwo .card-content-ios-light {
+  color: #f4f4f4;
+}
+
+.card-ios-primaryTwo .text-ios-dark,
+.card-ios-primaryTwo .card-header-ios-dark,
+.card-ios-primaryTwo .card-title-ios-dark,
+.card-ios-primaryTwo .card-content-ios-dark {
+  color: #222;
+}
+
+.card-ios-primaryTwo .text-ios-quoteBackground,
+.card-ios-primaryTwo .card-header-ios-quoteBackground,
+.card-ios-primaryTwo .card-title-ios-quoteBackground,
+.card-ios-primaryTwo .card-content-ios-quoteBackground {
+  color: #f2f7c0;
+}
+
+.card-ios-primaryTwo .text-ios-altQuoteBackground,
+.card-ios-primaryTwo .card-header-ios-altQuoteBackground,
+.card-ios-primaryTwo .card-title-ios-altQuoteBackground,
+.card-ios-primaryTwo .card-content-ios-altQuoteBackground {
+  color: #f9ebc2;
+}
+
+.card-header-ios-primaryTwo,
+.card-title-ios-primaryTwo,
+.card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-ios .text-ios-secondary {
   color: #32db64;
 }
@@ -7184,11 +7569,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-ios-secondary .text-ios-primaryTwo,
+.card-ios-secondary .card-header-ios-primaryTwo,
+.card-ios-secondary .card-title-ios-primaryTwo,
+.card-ios-secondary .card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-ios-secondary .text-ios-secondary,
 .card-ios-secondary .card-header-ios-secondary,
 .card-ios-secondary .card-title-ios-secondary,
 .card-ios-secondary .card-content-ios-secondary {
   color: #32db64;
+}
+
+.card-ios-secondary .text-ios-secondaryT,
+.card-ios-secondary .card-header-ios-secondaryT,
+.card-ios-secondary .card-title-ios-secondaryT,
+.card-ios-secondary .card-content-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .card-ios-secondary .text-ios-danger,
@@ -7232,6 +7631,91 @@ ion-card-content {
   color: #32db64;
 }
 
+.card-ios .text-ios-secondaryT {
+  color: #7ad61d;
+}
+
+.card-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.card-ios-secondaryT .card-header-ios,
+.card-ios-secondaryT .card-title-ios,
+.card-ios-secondaryT .card-content-ios,
+.card-ios-secondaryT p {
+  color: #fff;
+}
+
+.card-ios-secondaryT .text-ios-primary,
+.card-ios-secondaryT .card-header-ios-primary,
+.card-ios-secondaryT .card-title-ios-primary,
+.card-ios-secondaryT .card-content-ios-primary {
+  color: #ffbb00;
+}
+
+.card-ios-secondaryT .text-ios-primaryTwo,
+.card-ios-secondaryT .card-header-ios-primaryTwo,
+.card-ios-secondaryT .card-title-ios-primaryTwo,
+.card-ios-secondaryT .card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
+.card-ios-secondaryT .text-ios-secondary,
+.card-ios-secondaryT .card-header-ios-secondary,
+.card-ios-secondaryT .card-title-ios-secondary,
+.card-ios-secondaryT .card-content-ios-secondary {
+  color: #32db64;
+}
+
+.card-ios-secondaryT .text-ios-secondaryT,
+.card-ios-secondaryT .card-header-ios-secondaryT,
+.card-ios-secondaryT .card-title-ios-secondaryT,
+.card-ios-secondaryT .card-content-ios-secondaryT {
+  color: #7ad61d;
+}
+
+.card-ios-secondaryT .text-ios-danger,
+.card-ios-secondaryT .card-header-ios-danger,
+.card-ios-secondaryT .card-title-ios-danger,
+.card-ios-secondaryT .card-content-ios-danger {
+  color: #f53d3d;
+}
+
+.card-ios-secondaryT .text-ios-light,
+.card-ios-secondaryT .card-header-ios-light,
+.card-ios-secondaryT .card-title-ios-light,
+.card-ios-secondaryT .card-content-ios-light {
+  color: #f4f4f4;
+}
+
+.card-ios-secondaryT .text-ios-dark,
+.card-ios-secondaryT .card-header-ios-dark,
+.card-ios-secondaryT .card-title-ios-dark,
+.card-ios-secondaryT .card-content-ios-dark {
+  color: #222;
+}
+
+.card-ios-secondaryT .text-ios-quoteBackground,
+.card-ios-secondaryT .card-header-ios-quoteBackground,
+.card-ios-secondaryT .card-title-ios-quoteBackground,
+.card-ios-secondaryT .card-content-ios-quoteBackground {
+  color: #f2f7c0;
+}
+
+.card-ios-secondaryT .text-ios-altQuoteBackground,
+.card-ios-secondaryT .card-header-ios-altQuoteBackground,
+.card-ios-secondaryT .card-title-ios-altQuoteBackground,
+.card-ios-secondaryT .card-content-ios-altQuoteBackground {
+  color: #f9ebc2;
+}
+
+.card-header-ios-secondaryT,
+.card-title-ios-secondaryT,
+.card-content-ios-secondaryT {
+  color: #7ad61d;
+}
+
 .card-ios .text-ios-danger {
   color: #f53d3d;
 }
@@ -7255,11 +7739,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-ios-danger .text-ios-primaryTwo,
+.card-ios-danger .card-header-ios-primaryTwo,
+.card-ios-danger .card-title-ios-primaryTwo,
+.card-ios-danger .card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-ios-danger .text-ios-secondary,
 .card-ios-danger .card-header-ios-secondary,
 .card-ios-danger .card-title-ios-secondary,
 .card-ios-danger .card-content-ios-secondary {
   color: #32db64;
+}
+
+.card-ios-danger .text-ios-secondaryT,
+.card-ios-danger .card-header-ios-secondaryT,
+.card-ios-danger .card-title-ios-secondaryT,
+.card-ios-danger .card-content-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .card-ios-danger .text-ios-danger,
@@ -7326,11 +7824,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-ios-light .text-ios-primaryTwo,
+.card-ios-light .card-header-ios-primaryTwo,
+.card-ios-light .card-title-ios-primaryTwo,
+.card-ios-light .card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-ios-light .text-ios-secondary,
 .card-ios-light .card-header-ios-secondary,
 .card-ios-light .card-title-ios-secondary,
 .card-ios-light .card-content-ios-secondary {
   color: #32db64;
+}
+
+.card-ios-light .text-ios-secondaryT,
+.card-ios-light .card-header-ios-secondaryT,
+.card-ios-light .card-title-ios-secondaryT,
+.card-ios-light .card-content-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .card-ios-light .text-ios-danger,
@@ -7397,11 +7909,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-ios-dark .text-ios-primaryTwo,
+.card-ios-dark .card-header-ios-primaryTwo,
+.card-ios-dark .card-title-ios-primaryTwo,
+.card-ios-dark .card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-ios-dark .text-ios-secondary,
 .card-ios-dark .card-header-ios-secondary,
 .card-ios-dark .card-title-ios-secondary,
 .card-ios-dark .card-content-ios-secondary {
   color: #32db64;
+}
+
+.card-ios-dark .text-ios-secondaryT,
+.card-ios-dark .card-header-ios-secondaryT,
+.card-ios-dark .card-title-ios-secondaryT,
+.card-ios-dark .card-content-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .card-ios-dark .text-ios-danger,
@@ -7468,11 +7994,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-ios-quoteBackground .text-ios-primaryTwo,
+.card-ios-quoteBackground .card-header-ios-primaryTwo,
+.card-ios-quoteBackground .card-title-ios-primaryTwo,
+.card-ios-quoteBackground .card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-ios-quoteBackground .text-ios-secondary,
 .card-ios-quoteBackground .card-header-ios-secondary,
 .card-ios-quoteBackground .card-title-ios-secondary,
 .card-ios-quoteBackground .card-content-ios-secondary {
   color: #32db64;
+}
+
+.card-ios-quoteBackground .text-ios-secondaryT,
+.card-ios-quoteBackground .card-header-ios-secondaryT,
+.card-ios-quoteBackground .card-title-ios-secondaryT,
+.card-ios-quoteBackground .card-content-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .card-ios-quoteBackground .text-ios-danger,
@@ -7539,11 +8079,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-ios-altQuoteBackground .text-ios-primaryTwo,
+.card-ios-altQuoteBackground .card-header-ios-primaryTwo,
+.card-ios-altQuoteBackground .card-title-ios-primaryTwo,
+.card-ios-altQuoteBackground .card-content-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-ios-altQuoteBackground .text-ios-secondary,
 .card-ios-altQuoteBackground .card-header-ios-secondary,
 .card-ios-altQuoteBackground .card-title-ios-secondary,
 .card-ios-altQuoteBackground .card-content-ios-secondary {
   color: #32db64;
+}
+
+.card-ios-altQuoteBackground .text-ios-secondaryT,
+.card-ios-altQuoteBackground .card-header-ios-secondaryT,
+.card-ios-altQuoteBackground .card-title-ios-secondaryT,
+.card-ios-altQuoteBackground .card-content-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .card-ios-altQuoteBackground .text-ios-danger,
@@ -7706,11 +8260,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-md-primary .text-md-primaryTwo,
+.card-md-primary .card-header-md-primaryTwo,
+.card-md-primary .card-title-md-primaryTwo,
+.card-md-primary .card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-md-primary .text-md-secondary,
 .card-md-primary .card-header-md-secondary,
 .card-md-primary .card-title-md-secondary,
 .card-md-primary .card-content-md-secondary {
   color: #32db64;
+}
+
+.card-md-primary .text-md-secondaryT,
+.card-md-primary .card-header-md-secondaryT,
+.card-md-primary .card-title-md-secondaryT,
+.card-md-primary .card-content-md-secondaryT {
+  color: #7ad61d;
 }
 
 .card-md-primary .text-md-danger,
@@ -7754,6 +8322,97 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-md .text-md-primaryTwo {
+  color: #bc7e40;
+}
+
+.card-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.card-md-primaryTwo .card-header-md,
+.card-md-primaryTwo .card-title-md,
+.card-md-primaryTwo .card-content-md,
+.card-md-primaryTwo h1,
+.card-md-primaryTwo h2,
+.card-md-primaryTwo h3,
+.card-md-primaryTwo h4,
+.card-md-primaryTwo h5,
+.card-md-primaryTwo h6,
+.card-md-primaryTwo p {
+  color: #fff;
+}
+
+.card-md-primaryTwo .text-md-primary,
+.card-md-primaryTwo .card-header-md-primary,
+.card-md-primaryTwo .card-title-md-primary,
+.card-md-primaryTwo .card-content-md-primary {
+  color: #ffbb00;
+}
+
+.card-md-primaryTwo .text-md-primaryTwo,
+.card-md-primaryTwo .card-header-md-primaryTwo,
+.card-md-primaryTwo .card-title-md-primaryTwo,
+.card-md-primaryTwo .card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
+.card-md-primaryTwo .text-md-secondary,
+.card-md-primaryTwo .card-header-md-secondary,
+.card-md-primaryTwo .card-title-md-secondary,
+.card-md-primaryTwo .card-content-md-secondary {
+  color: #32db64;
+}
+
+.card-md-primaryTwo .text-md-secondaryT,
+.card-md-primaryTwo .card-header-md-secondaryT,
+.card-md-primaryTwo .card-title-md-secondaryT,
+.card-md-primaryTwo .card-content-md-secondaryT {
+  color: #7ad61d;
+}
+
+.card-md-primaryTwo .text-md-danger,
+.card-md-primaryTwo .card-header-md-danger,
+.card-md-primaryTwo .card-title-md-danger,
+.card-md-primaryTwo .card-content-md-danger {
+  color: #f53d3d;
+}
+
+.card-md-primaryTwo .text-md-light,
+.card-md-primaryTwo .card-header-md-light,
+.card-md-primaryTwo .card-title-md-light,
+.card-md-primaryTwo .card-content-md-light {
+  color: #f4f4f4;
+}
+
+.card-md-primaryTwo .text-md-dark,
+.card-md-primaryTwo .card-header-md-dark,
+.card-md-primaryTwo .card-title-md-dark,
+.card-md-primaryTwo .card-content-md-dark {
+  color: #222;
+}
+
+.card-md-primaryTwo .text-md-quoteBackground,
+.card-md-primaryTwo .card-header-md-quoteBackground,
+.card-md-primaryTwo .card-title-md-quoteBackground,
+.card-md-primaryTwo .card-content-md-quoteBackground {
+  color: #f2f7c0;
+}
+
+.card-md-primaryTwo .text-md-altQuoteBackground,
+.card-md-primaryTwo .card-header-md-altQuoteBackground,
+.card-md-primaryTwo .card-title-md-altQuoteBackground,
+.card-md-primaryTwo .card-content-md-altQuoteBackground {
+  color: #f9ebc2;
+}
+
+.card-header-md-primaryTwo,
+.card-title-md-primaryTwo,
+.card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-md .text-md-secondary {
   color: #32db64;
 }
@@ -7783,11 +8442,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-md-secondary .text-md-primaryTwo,
+.card-md-secondary .card-header-md-primaryTwo,
+.card-md-secondary .card-title-md-primaryTwo,
+.card-md-secondary .card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-md-secondary .text-md-secondary,
 .card-md-secondary .card-header-md-secondary,
 .card-md-secondary .card-title-md-secondary,
 .card-md-secondary .card-content-md-secondary {
   color: #32db64;
+}
+
+.card-md-secondary .text-md-secondaryT,
+.card-md-secondary .card-header-md-secondaryT,
+.card-md-secondary .card-title-md-secondaryT,
+.card-md-secondary .card-content-md-secondaryT {
+  color: #7ad61d;
 }
 
 .card-md-secondary .text-md-danger,
@@ -7831,6 +8504,97 @@ ion-card-content {
   color: #32db64;
 }
 
+.card-md .text-md-secondaryT {
+  color: #7ad61d;
+}
+
+.card-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.card-md-secondaryT .card-header-md,
+.card-md-secondaryT .card-title-md,
+.card-md-secondaryT .card-content-md,
+.card-md-secondaryT h1,
+.card-md-secondaryT h2,
+.card-md-secondaryT h3,
+.card-md-secondaryT h4,
+.card-md-secondaryT h5,
+.card-md-secondaryT h6,
+.card-md-secondaryT p {
+  color: #fff;
+}
+
+.card-md-secondaryT .text-md-primary,
+.card-md-secondaryT .card-header-md-primary,
+.card-md-secondaryT .card-title-md-primary,
+.card-md-secondaryT .card-content-md-primary {
+  color: #ffbb00;
+}
+
+.card-md-secondaryT .text-md-primaryTwo,
+.card-md-secondaryT .card-header-md-primaryTwo,
+.card-md-secondaryT .card-title-md-primaryTwo,
+.card-md-secondaryT .card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
+.card-md-secondaryT .text-md-secondary,
+.card-md-secondaryT .card-header-md-secondary,
+.card-md-secondaryT .card-title-md-secondary,
+.card-md-secondaryT .card-content-md-secondary {
+  color: #32db64;
+}
+
+.card-md-secondaryT .text-md-secondaryT,
+.card-md-secondaryT .card-header-md-secondaryT,
+.card-md-secondaryT .card-title-md-secondaryT,
+.card-md-secondaryT .card-content-md-secondaryT {
+  color: #7ad61d;
+}
+
+.card-md-secondaryT .text-md-danger,
+.card-md-secondaryT .card-header-md-danger,
+.card-md-secondaryT .card-title-md-danger,
+.card-md-secondaryT .card-content-md-danger {
+  color: #f53d3d;
+}
+
+.card-md-secondaryT .text-md-light,
+.card-md-secondaryT .card-header-md-light,
+.card-md-secondaryT .card-title-md-light,
+.card-md-secondaryT .card-content-md-light {
+  color: #f4f4f4;
+}
+
+.card-md-secondaryT .text-md-dark,
+.card-md-secondaryT .card-header-md-dark,
+.card-md-secondaryT .card-title-md-dark,
+.card-md-secondaryT .card-content-md-dark {
+  color: #222;
+}
+
+.card-md-secondaryT .text-md-quoteBackground,
+.card-md-secondaryT .card-header-md-quoteBackground,
+.card-md-secondaryT .card-title-md-quoteBackground,
+.card-md-secondaryT .card-content-md-quoteBackground {
+  color: #f2f7c0;
+}
+
+.card-md-secondaryT .text-md-altQuoteBackground,
+.card-md-secondaryT .card-header-md-altQuoteBackground,
+.card-md-secondaryT .card-title-md-altQuoteBackground,
+.card-md-secondaryT .card-content-md-altQuoteBackground {
+  color: #f9ebc2;
+}
+
+.card-header-md-secondaryT,
+.card-title-md-secondaryT,
+.card-content-md-secondaryT {
+  color: #7ad61d;
+}
+
 .card-md .text-md-danger {
   color: #f53d3d;
 }
@@ -7860,11 +8624,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-md-danger .text-md-primaryTwo,
+.card-md-danger .card-header-md-primaryTwo,
+.card-md-danger .card-title-md-primaryTwo,
+.card-md-danger .card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-md-danger .text-md-secondary,
 .card-md-danger .card-header-md-secondary,
 .card-md-danger .card-title-md-secondary,
 .card-md-danger .card-content-md-secondary {
   color: #32db64;
+}
+
+.card-md-danger .text-md-secondaryT,
+.card-md-danger .card-header-md-secondaryT,
+.card-md-danger .card-title-md-secondaryT,
+.card-md-danger .card-content-md-secondaryT {
+  color: #7ad61d;
 }
 
 .card-md-danger .text-md-danger,
@@ -7937,11 +8715,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-md-light .text-md-primaryTwo,
+.card-md-light .card-header-md-primaryTwo,
+.card-md-light .card-title-md-primaryTwo,
+.card-md-light .card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-md-light .text-md-secondary,
 .card-md-light .card-header-md-secondary,
 .card-md-light .card-title-md-secondary,
 .card-md-light .card-content-md-secondary {
   color: #32db64;
+}
+
+.card-md-light .text-md-secondaryT,
+.card-md-light .card-header-md-secondaryT,
+.card-md-light .card-title-md-secondaryT,
+.card-md-light .card-content-md-secondaryT {
+  color: #7ad61d;
 }
 
 .card-md-light .text-md-danger,
@@ -8014,11 +8806,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-md-dark .text-md-primaryTwo,
+.card-md-dark .card-header-md-primaryTwo,
+.card-md-dark .card-title-md-primaryTwo,
+.card-md-dark .card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-md-dark .text-md-secondary,
 .card-md-dark .card-header-md-secondary,
 .card-md-dark .card-title-md-secondary,
 .card-md-dark .card-content-md-secondary {
   color: #32db64;
+}
+
+.card-md-dark .text-md-secondaryT,
+.card-md-dark .card-header-md-secondaryT,
+.card-md-dark .card-title-md-secondaryT,
+.card-md-dark .card-content-md-secondaryT {
+  color: #7ad61d;
 }
 
 .card-md-dark .text-md-danger,
@@ -8091,11 +8897,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-md-quoteBackground .text-md-primaryTwo,
+.card-md-quoteBackground .card-header-md-primaryTwo,
+.card-md-quoteBackground .card-title-md-primaryTwo,
+.card-md-quoteBackground .card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-md-quoteBackground .text-md-secondary,
 .card-md-quoteBackground .card-header-md-secondary,
 .card-md-quoteBackground .card-title-md-secondary,
 .card-md-quoteBackground .card-content-md-secondary {
   color: #32db64;
+}
+
+.card-md-quoteBackground .text-md-secondaryT,
+.card-md-quoteBackground .card-header-md-secondaryT,
+.card-md-quoteBackground .card-title-md-secondaryT,
+.card-md-quoteBackground .card-content-md-secondaryT {
+  color: #7ad61d;
 }
 
 .card-md-quoteBackground .text-md-danger,
@@ -8168,11 +8988,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-md-altQuoteBackground .text-md-primaryTwo,
+.card-md-altQuoteBackground .card-header-md-primaryTwo,
+.card-md-altQuoteBackground .card-title-md-primaryTwo,
+.card-md-altQuoteBackground .card-content-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-md-altQuoteBackground .text-md-secondary,
 .card-md-altQuoteBackground .card-header-md-secondary,
 .card-md-altQuoteBackground .card-title-md-secondary,
 .card-md-altQuoteBackground .card-content-md-secondary {
   color: #32db64;
+}
+
+.card-md-altQuoteBackground .text-md-secondaryT,
+.card-md-altQuoteBackground .card-header-md-secondaryT,
+.card-md-altQuoteBackground .card-title-md-secondaryT,
+.card-md-altQuoteBackground .card-content-md-secondaryT {
+  color: #7ad61d;
 }
 
 .card-md-altQuoteBackground .text-md-danger,
@@ -8335,11 +9169,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-wp-primary .text-wp-primaryTwo,
+.card-wp-primary .card-header-wp-primaryTwo,
+.card-wp-primary .card-title-wp-primaryTwo,
+.card-wp-primary .card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-wp-primary .text-wp-secondary,
 .card-wp-primary .card-header-wp-secondary,
 .card-wp-primary .card-title-wp-secondary,
 .card-wp-primary .card-content-wp-secondary {
   color: #32db64;
+}
+
+.card-wp-primary .text-wp-secondaryT,
+.card-wp-primary .card-header-wp-secondaryT,
+.card-wp-primary .card-title-wp-secondaryT,
+.card-wp-primary .card-content-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .card-wp-primary .text-wp-danger,
@@ -8383,6 +9231,97 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-wp .text-wp-primaryTwo {
+  color: #bc7e40;
+}
+
+.card-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.card-wp-primaryTwo .card-header-wp,
+.card-wp-primaryTwo .card-title-wp,
+.card-wp-primaryTwo .card-content-wp,
+.card-wp-primaryTwo h1,
+.card-wp-primaryTwo h2,
+.card-wp-primaryTwo h3,
+.card-wp-primaryTwo h4,
+.card-wp-primaryTwo h5,
+.card-wp-primaryTwo h6,
+.card-wp-primaryTwo p {
+  color: #fff;
+}
+
+.card-wp-primaryTwo .text-wp-primary,
+.card-wp-primaryTwo .card-header-wp-primary,
+.card-wp-primaryTwo .card-title-wp-primary,
+.card-wp-primaryTwo .card-content-wp-primary {
+  color: #ffbb00;
+}
+
+.card-wp-primaryTwo .text-wp-primaryTwo,
+.card-wp-primaryTwo .card-header-wp-primaryTwo,
+.card-wp-primaryTwo .card-title-wp-primaryTwo,
+.card-wp-primaryTwo .card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
+.card-wp-primaryTwo .text-wp-secondary,
+.card-wp-primaryTwo .card-header-wp-secondary,
+.card-wp-primaryTwo .card-title-wp-secondary,
+.card-wp-primaryTwo .card-content-wp-secondary {
+  color: #32db64;
+}
+
+.card-wp-primaryTwo .text-wp-secondaryT,
+.card-wp-primaryTwo .card-header-wp-secondaryT,
+.card-wp-primaryTwo .card-title-wp-secondaryT,
+.card-wp-primaryTwo .card-content-wp-secondaryT {
+  color: #7ad61d;
+}
+
+.card-wp-primaryTwo .text-wp-danger,
+.card-wp-primaryTwo .card-header-wp-danger,
+.card-wp-primaryTwo .card-title-wp-danger,
+.card-wp-primaryTwo .card-content-wp-danger {
+  color: #f53d3d;
+}
+
+.card-wp-primaryTwo .text-wp-light,
+.card-wp-primaryTwo .card-header-wp-light,
+.card-wp-primaryTwo .card-title-wp-light,
+.card-wp-primaryTwo .card-content-wp-light {
+  color: #f4f4f4;
+}
+
+.card-wp-primaryTwo .text-wp-dark,
+.card-wp-primaryTwo .card-header-wp-dark,
+.card-wp-primaryTwo .card-title-wp-dark,
+.card-wp-primaryTwo .card-content-wp-dark {
+  color: #222;
+}
+
+.card-wp-primaryTwo .text-wp-quoteBackground,
+.card-wp-primaryTwo .card-header-wp-quoteBackground,
+.card-wp-primaryTwo .card-title-wp-quoteBackground,
+.card-wp-primaryTwo .card-content-wp-quoteBackground {
+  color: #f2f7c0;
+}
+
+.card-wp-primaryTwo .text-wp-altQuoteBackground,
+.card-wp-primaryTwo .card-header-wp-altQuoteBackground,
+.card-wp-primaryTwo .card-title-wp-altQuoteBackground,
+.card-wp-primaryTwo .card-content-wp-altQuoteBackground {
+  color: #f9ebc2;
+}
+
+.card-header-wp-primaryTwo,
+.card-title-wp-primaryTwo,
+.card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-wp .text-wp-secondary {
   color: #32db64;
 }
@@ -8412,11 +9351,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-wp-secondary .text-wp-primaryTwo,
+.card-wp-secondary .card-header-wp-primaryTwo,
+.card-wp-secondary .card-title-wp-primaryTwo,
+.card-wp-secondary .card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-wp-secondary .text-wp-secondary,
 .card-wp-secondary .card-header-wp-secondary,
 .card-wp-secondary .card-title-wp-secondary,
 .card-wp-secondary .card-content-wp-secondary {
   color: #32db64;
+}
+
+.card-wp-secondary .text-wp-secondaryT,
+.card-wp-secondary .card-header-wp-secondaryT,
+.card-wp-secondary .card-title-wp-secondaryT,
+.card-wp-secondary .card-content-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .card-wp-secondary .text-wp-danger,
@@ -8460,6 +9413,97 @@ ion-card-content {
   color: #32db64;
 }
 
+.card-wp .text-wp-secondaryT {
+  color: #7ad61d;
+}
+
+.card-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.card-wp-secondaryT .card-header-wp,
+.card-wp-secondaryT .card-title-wp,
+.card-wp-secondaryT .card-content-wp,
+.card-wp-secondaryT h1,
+.card-wp-secondaryT h2,
+.card-wp-secondaryT h3,
+.card-wp-secondaryT h4,
+.card-wp-secondaryT h5,
+.card-wp-secondaryT h6,
+.card-wp-secondaryT p {
+  color: #fff;
+}
+
+.card-wp-secondaryT .text-wp-primary,
+.card-wp-secondaryT .card-header-wp-primary,
+.card-wp-secondaryT .card-title-wp-primary,
+.card-wp-secondaryT .card-content-wp-primary {
+  color: #ffbb00;
+}
+
+.card-wp-secondaryT .text-wp-primaryTwo,
+.card-wp-secondaryT .card-header-wp-primaryTwo,
+.card-wp-secondaryT .card-title-wp-primaryTwo,
+.card-wp-secondaryT .card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
+.card-wp-secondaryT .text-wp-secondary,
+.card-wp-secondaryT .card-header-wp-secondary,
+.card-wp-secondaryT .card-title-wp-secondary,
+.card-wp-secondaryT .card-content-wp-secondary {
+  color: #32db64;
+}
+
+.card-wp-secondaryT .text-wp-secondaryT,
+.card-wp-secondaryT .card-header-wp-secondaryT,
+.card-wp-secondaryT .card-title-wp-secondaryT,
+.card-wp-secondaryT .card-content-wp-secondaryT {
+  color: #7ad61d;
+}
+
+.card-wp-secondaryT .text-wp-danger,
+.card-wp-secondaryT .card-header-wp-danger,
+.card-wp-secondaryT .card-title-wp-danger,
+.card-wp-secondaryT .card-content-wp-danger {
+  color: #f53d3d;
+}
+
+.card-wp-secondaryT .text-wp-light,
+.card-wp-secondaryT .card-header-wp-light,
+.card-wp-secondaryT .card-title-wp-light,
+.card-wp-secondaryT .card-content-wp-light {
+  color: #f4f4f4;
+}
+
+.card-wp-secondaryT .text-wp-dark,
+.card-wp-secondaryT .card-header-wp-dark,
+.card-wp-secondaryT .card-title-wp-dark,
+.card-wp-secondaryT .card-content-wp-dark {
+  color: #222;
+}
+
+.card-wp-secondaryT .text-wp-quoteBackground,
+.card-wp-secondaryT .card-header-wp-quoteBackground,
+.card-wp-secondaryT .card-title-wp-quoteBackground,
+.card-wp-secondaryT .card-content-wp-quoteBackground {
+  color: #f2f7c0;
+}
+
+.card-wp-secondaryT .text-wp-altQuoteBackground,
+.card-wp-secondaryT .card-header-wp-altQuoteBackground,
+.card-wp-secondaryT .card-title-wp-altQuoteBackground,
+.card-wp-secondaryT .card-content-wp-altQuoteBackground {
+  color: #f9ebc2;
+}
+
+.card-header-wp-secondaryT,
+.card-title-wp-secondaryT,
+.card-content-wp-secondaryT {
+  color: #7ad61d;
+}
+
 .card-wp .text-wp-danger {
   color: #f53d3d;
 }
@@ -8489,11 +9533,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-wp-danger .text-wp-primaryTwo,
+.card-wp-danger .card-header-wp-primaryTwo,
+.card-wp-danger .card-title-wp-primaryTwo,
+.card-wp-danger .card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-wp-danger .text-wp-secondary,
 .card-wp-danger .card-header-wp-secondary,
 .card-wp-danger .card-title-wp-secondary,
 .card-wp-danger .card-content-wp-secondary {
   color: #32db64;
+}
+
+.card-wp-danger .text-wp-secondaryT,
+.card-wp-danger .card-header-wp-secondaryT,
+.card-wp-danger .card-title-wp-secondaryT,
+.card-wp-danger .card-content-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .card-wp-danger .text-wp-danger,
@@ -8566,11 +9624,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-wp-light .text-wp-primaryTwo,
+.card-wp-light .card-header-wp-primaryTwo,
+.card-wp-light .card-title-wp-primaryTwo,
+.card-wp-light .card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-wp-light .text-wp-secondary,
 .card-wp-light .card-header-wp-secondary,
 .card-wp-light .card-title-wp-secondary,
 .card-wp-light .card-content-wp-secondary {
   color: #32db64;
+}
+
+.card-wp-light .text-wp-secondaryT,
+.card-wp-light .card-header-wp-secondaryT,
+.card-wp-light .card-title-wp-secondaryT,
+.card-wp-light .card-content-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .card-wp-light .text-wp-danger,
@@ -8643,11 +9715,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-wp-dark .text-wp-primaryTwo,
+.card-wp-dark .card-header-wp-primaryTwo,
+.card-wp-dark .card-title-wp-primaryTwo,
+.card-wp-dark .card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-wp-dark .text-wp-secondary,
 .card-wp-dark .card-header-wp-secondary,
 .card-wp-dark .card-title-wp-secondary,
 .card-wp-dark .card-content-wp-secondary {
   color: #32db64;
+}
+
+.card-wp-dark .text-wp-secondaryT,
+.card-wp-dark .card-header-wp-secondaryT,
+.card-wp-dark .card-title-wp-secondaryT,
+.card-wp-dark .card-content-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .card-wp-dark .text-wp-danger,
@@ -8720,11 +9806,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-wp-quoteBackground .text-wp-primaryTwo,
+.card-wp-quoteBackground .card-header-wp-primaryTwo,
+.card-wp-quoteBackground .card-title-wp-primaryTwo,
+.card-wp-quoteBackground .card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-wp-quoteBackground .text-wp-secondary,
 .card-wp-quoteBackground .card-header-wp-secondary,
 .card-wp-quoteBackground .card-title-wp-secondary,
 .card-wp-quoteBackground .card-content-wp-secondary {
   color: #32db64;
+}
+
+.card-wp-quoteBackground .text-wp-secondaryT,
+.card-wp-quoteBackground .card-header-wp-secondaryT,
+.card-wp-quoteBackground .card-title-wp-secondaryT,
+.card-wp-quoteBackground .card-content-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .card-wp-quoteBackground .text-wp-danger,
@@ -8797,11 +9897,25 @@ ion-card-content {
   color: #ffbb00;
 }
 
+.card-wp-altQuoteBackground .text-wp-primaryTwo,
+.card-wp-altQuoteBackground .card-header-wp-primaryTwo,
+.card-wp-altQuoteBackground .card-title-wp-primaryTwo,
+.card-wp-altQuoteBackground .card-content-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .card-wp-altQuoteBackground .text-wp-secondary,
 .card-wp-altQuoteBackground .card-header-wp-secondary,
 .card-wp-altQuoteBackground .card-title-wp-secondary,
 .card-wp-altQuoteBackground .card-content-wp-secondary {
   color: #32db64;
+}
+
+.card-wp-altQuoteBackground .text-wp-secondaryT,
+.card-wp-altQuoteBackground .card-header-wp-secondaryT,
+.card-wp-altQuoteBackground .card-title-wp-secondaryT,
+.card-wp-altQuoteBackground .card-content-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .card-wp-altQuoteBackground .text-wp-danger,
@@ -8907,12 +10021,30 @@ ion-card-content {
   border-color: #000;
 }
 
+.checkbox-ios-primaryTwo .checkbox-checked {
+  border-color: #bc7e40;
+  background-color: #bc7e40;
+}
+
+.checkbox-ios-primaryTwo .checkbox-checked .checkbox-inner {
+  border-color: #fff;
+}
+
 .checkbox-ios-secondary .checkbox-checked {
   border-color: #32db64;
   background-color: #32db64;
 }
 
 .checkbox-ios-secondary .checkbox-checked .checkbox-inner {
+  border-color: #fff;
+}
+
+.checkbox-ios-secondaryT .checkbox-checked {
+  border-color: #7ad61d;
+  background-color: #7ad61d;
+}
+
+.checkbox-ios-secondaryT .checkbox-checked .checkbox-inner {
   border-color: #fff;
 }
 
@@ -9033,12 +10165,30 @@ ion-card-content {
   border-color: #000;
 }
 
+.checkbox-md-primaryTwo .checkbox-checked {
+  border-color: #bc7e40;
+  background-color: #bc7e40;
+}
+
+.checkbox-md-primaryTwo .checkbox-checked .checkbox-inner {
+  border-color: #fff;
+}
+
 .checkbox-md-secondary .checkbox-checked {
   border-color: #32db64;
   background-color: #32db64;
 }
 
 .checkbox-md-secondary .checkbox-checked .checkbox-inner {
+  border-color: #fff;
+}
+
+.checkbox-md-secondaryT .checkbox-checked {
+  border-color: #7ad61d;
+  background-color: #7ad61d;
+}
+
+.checkbox-md-secondaryT .checkbox-checked .checkbox-inner {
   border-color: #fff;
 }
 
@@ -9153,12 +10303,30 @@ ion-card-content {
   border-color: #000;
 }
 
+.checkbox-wp-primaryTwo .checkbox-checked {
+  border-color: #bc7e40;
+  background-color: #bc7e40;
+}
+
+.checkbox-wp-primaryTwo .checkbox-checked .checkbox-inner {
+  border-color: #fff;
+}
+
 .checkbox-wp-secondary .checkbox-checked {
   border-color: #32db64;
   background-color: #32db64;
 }
 
 .checkbox-wp-secondary .checkbox-checked .checkbox-inner {
+  border-color: #fff;
+}
+
+.checkbox-wp-secondaryT .checkbox-checked {
+  border-color: #7ad61d;
+  background-color: #7ad61d;
+}
+
+.checkbox-wp-secondaryT .checkbox-checked .checkbox-inner {
   border-color: #fff;
 }
 
@@ -9279,10 +10447,22 @@ ion-chip ion-avatar img {
   background-color: #ffbb00;
 }
 
+.chip-ios-primaryTwo,
+.chip-ios .icon-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
 .chip-ios-secondary,
 .chip-ios .icon-ios-secondary {
   color: #fff;
   background-color: #32db64;
+}
+
+.chip-ios-secondaryT,
+.chip-ios .icon-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
 }
 
 .chip-ios-danger,
@@ -9340,10 +10520,22 @@ ion-chip ion-avatar img {
   background-color: #ffbb00;
 }
 
+.chip-md-primaryTwo,
+.chip-md .icon-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
 .chip-md-secondary,
 .chip-md .icon-md-secondary {
   color: #fff;
   background-color: #32db64;
+}
+
+.chip-md-secondaryT,
+.chip-md .icon-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
 }
 
 .chip-md-danger,
@@ -9405,10 +10597,22 @@ ion-chip ion-avatar img {
   background-color: #ffbb00;
 }
 
+.chip-wp-primaryTwo,
+.chip-wp .icon-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
 .chip-wp-secondary,
 .chip-wp .icon-wp-secondary {
   color: #fff;
   background-color: #32db64;
+}
+
+.chip-wp-secondaryT,
+.chip-wp .icon-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
 }
 
 .chip-wp-danger,
@@ -10373,6 +11577,15 @@ ion-fab-list[side=right] {
   background-color: #ffc014;
 }
 
+.fab-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.fab-ios-primaryTwo.activated {
+  background-color: #c1884f;
+}
+
 .fab-ios-secondary {
   color: #fff;
   background-color: #32db64;
@@ -10380,6 +11593,15 @@ ion-fab-list[side=right] {
 
 .fab-ios-secondary.activated {
   background-color: #2ec95c;
+}
+
+.fab-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.fab-ios-secondaryT.activated {
+  background-color: #85d92f;
 }
 
 .fab-ios-danger {
@@ -10474,6 +11696,19 @@ ion-fab-list[side=right] {
   background-color: #000;
 }
 
+.fab-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.fab-md-primaryTwo.activated {
+  background-color: #c1884f;
+}
+
+.fab-md-primaryTwo .button-effect {
+  background-color: #fff;
+}
+
 .fab-md-secondary {
   color: #fff;
   background-color: #32db64;
@@ -10484,6 +11719,19 @@ ion-fab-list[side=right] {
 }
 
 .fab-md-secondary .button-effect {
+  background-color: #fff;
+}
+
+.fab-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.fab-md-secondaryT.activated {
+  background-color: #85d92f;
+}
+
+.fab-md-secondaryT .button-effect {
   background-color: #fff;
 }
 
@@ -10583,6 +11831,15 @@ ion-fab-list[side=right] {
   background-color: #ffc014;
 }
 
+.fab-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.fab-wp-primaryTwo.activated {
+  background-color: #c1884f;
+}
+
 .fab-wp-secondary {
   color: #fff;
   background-color: #32db64;
@@ -10590,6 +11847,15 @@ ion-fab-list[side=right] {
 
 .fab-wp-secondary.activated {
   background-color: #2ec95c;
+}
+
+.fab-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.fab-wp-secondaryT.activated {
+  background-color: #85d92f;
 }
 
 .fab-wp-danger {
@@ -13855,8 +15121,16 @@ ion-icon[small] {
   color: #ffbb00;
 }
 
+.icon-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .icon-ios-secondary {
   color: #32db64;
+}
+
+.icon-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .icon-ios-danger {
@@ -13883,8 +15157,16 @@ ion-icon[small] {
   color: #ffbb00;
 }
 
+.icon-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .icon-md-secondary {
   color: #32db64;
+}
+
+.icon-md-secondaryT {
+  color: #7ad61d;
 }
 
 .icon-md-danger {
@@ -13911,8 +15193,16 @@ ion-icon[small] {
   color: #ffbb00;
 }
 
+.icon-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .icon-wp-secondary {
   color: #32db64;
+}
+
+.icon-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .icon-wp-danger {
@@ -14892,6 +16182,26 @@ ion-item-group .item-wrapper:last-child .item-ios .item-inner {
   background-color: #ffc014;
 }
 
+.item-ios .text-ios-primaryTwo {
+  color: #bc7e40;
+}
+
+.item-ios-primaryTwo,
+.item-divider-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.item-ios-primaryTwo p,
+.item-divider-ios-primaryTwo p {
+  color: #fff;
+}
+
+.item-ios-primaryTwo.activated,
+.item-divider-ios-primaryTwo.activated {
+  background-color: #c1884f;
+}
+
 .item-ios .text-ios-secondary {
   color: #32db64;
 }
@@ -14910,6 +16220,26 @@ ion-item-group .item-wrapper:last-child .item-ios .item-inner {
 .item-ios-secondary.activated,
 .item-divider-ios-secondary.activated {
   background-color: #2ec95c;
+}
+
+.item-ios .text-ios-secondaryT {
+  color: #7ad61d;
+}
+
+.item-ios-secondaryT,
+.item-divider-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.item-ios-secondaryT p,
+.item-divider-ios-secondaryT p {
+  color: #fff;
+}
+
+.item-ios-secondaryT.activated,
+.item-divider-ios-secondaryT.activated {
+  background-color: #85d92f;
 }
 
 .item-ios .text-ios-danger {
@@ -15184,6 +16514,26 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
   background-color: #ffc014;
 }
 
+.item-md .text-md-primaryTwo {
+  color: #bc7e40;
+}
+
+.item-md-primaryTwo,
+.item-divider-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.item-md-primaryTwo p,
+.item-divider-md-primaryTwo p {
+  color: #fff;
+}
+
+.item-md-primaryTwo.activated,
+.item-divider-md-primaryTwo.activated {
+  background-color: #c1884f;
+}
+
 .item-md .text-md-secondary {
   color: #32db64;
 }
@@ -15202,6 +16552,26 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
 .item-md-secondary.activated,
 .item-divider-md-secondary.activated {
   background-color: #2ec95c;
+}
+
+.item-md .text-md-secondaryT {
+  color: #7ad61d;
+}
+
+.item-md-secondaryT,
+.item-divider-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.item-md-secondaryT p,
+.item-divider-md-secondaryT p {
+  color: #fff;
+}
+
+.item-md-secondaryT.activated,
+.item-divider-md-secondaryT.activated {
+  background-color: #85d92f;
 }
 
 .item-md .text-md-danger {
@@ -15475,6 +16845,26 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
   background-color: #ffc014;
 }
 
+.item-wp .text-wp-primaryTwo {
+  color: #bc7e40;
+}
+
+.item-wp-primaryTwo,
+.item-divider-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.item-wp-primaryTwo p,
+.item-divider-wp-primaryTwo p {
+  color: #fff;
+}
+
+.item-wp-primaryTwo.activated,
+.item-divider-wp-primaryTwo.activated {
+  background-color: #c1884f;
+}
+
 .item-wp .text-wp-secondary {
   color: #32db64;
 }
@@ -15493,6 +16883,26 @@ ion-item-group .item-md .item-wrapper:last-child .item-inner {
 .item-wp-secondary.activated,
 .item-divider-wp-secondary.activated {
   background-color: #2ec95c;
+}
+
+.item-wp .text-wp-secondaryT {
+  color: #7ad61d;
+}
+
+.item-wp-secondaryT,
+.item-divider-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.item-wp-secondaryT p,
+.item-divider-wp-secondaryT p {
+  color: #fff;
+}
+
+.item-wp-secondaryT.activated,
+.item-divider-wp-secondaryT.activated {
+  background-color: #85d92f;
 }
 
 .item-wp .text-wp-danger {
@@ -15721,11 +17131,25 @@ ion-label[floating] {
   color: #ffbb00;
 }
 
+.label-ios-primaryTwo,
+.item-input .label-ios-primaryTwo,
+.item-select .label-ios-primaryTwo,
+.item-datetime .label-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .label-ios-secondary,
 .item-input .label-ios-secondary,
 .item-select .label-ios-secondary,
 .item-datetime .label-ios-secondary {
   color: #32db64;
+}
+
+.label-ios-secondaryT,
+.item-input .label-ios-secondaryT,
+.item-select .label-ios-secondaryT,
+.item-datetime .label-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .label-ios-danger,
@@ -15829,11 +17253,25 @@ ion-label[floating] {
   color: #ffbb00;
 }
 
+.label-md-primaryTwo,
+.item-input .label-md-primaryTwo,
+.item-select .label-md-primaryTwo,
+.item-datetime .label-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .label-md-secondary,
 .item-input .label-md-secondary,
 .item-select .label-md-secondary,
 .item-datetime .label-md-secondary {
   color: #32db64;
+}
+
+.label-md-secondaryT,
+.item-input .label-md-secondaryT,
+.item-select .label-md-secondaryT,
+.item-datetime .label-md-secondaryT {
+  color: #7ad61d;
 }
 
 .label-md-danger,
@@ -15928,11 +17366,25 @@ ion-label[floating] {
   color: #ffbb00;
 }
 
+.label-wp-primaryTwo,
+.item-input .label-wp-primaryTwo,
+.item-select .label-wp-primaryTwo,
+.item-datetime .label-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .label-wp-secondary,
 .item-input .label-wp-secondary,
 .item-select .label-wp-secondary,
 .item-datetime .label-wp-secondary {
   color: #32db64;
+}
+
+.label-wp-secondaryT,
+.item-input .label-wp-secondaryT,
+.item-select .label-wp-secondaryT,
+.item-datetime .label-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .label-wp-danger,
@@ -16116,9 +17568,19 @@ ion-list[inset] {
   background-color: #ffbb00;
 }
 
+.list-header-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
 .list-header-ios-secondary {
   color: #fff;
   background-color: #32db64;
+}
+
+.list-header-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
 }
 
 .list-header-ios-danger {
@@ -16251,9 +17713,19 @@ ion-list[inset] {
   background-color: #ffbb00;
 }
 
+.list-header-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
 .list-header-md-secondary {
   color: #fff;
   background-color: #32db64;
+}
+
+.list-header-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
 }
 
 .list-header-md-danger {
@@ -16394,9 +17866,19 @@ ion-list[inset] {
   background-color: #ffbb00;
 }
 
+.list-header-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
 .list-header-wp-secondary {
   color: #fff;
   background-color: #32db64;
+}
+
+.list-header-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
 }
 
 .list-header-wp-danger {
@@ -16787,8 +18269,16 @@ ion-modal {
   color: #ffbb00;
 }
 
+.note-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .note-ios-secondary {
   color: #32db64;
+}
+
+.note-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .note-ios-danger {
@@ -16819,8 +18309,16 @@ ion-modal {
   color: #ffbb00;
 }
 
+.note-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .note-md-secondary {
   color: #32db64;
+}
+
+.note-md-secondaryT {
+  color: #7ad61d;
 }
 
 .note-md-danger {
@@ -16851,8 +18349,16 @@ ion-modal {
   color: #ffbb00;
 }
 
+.note-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .note-wp-secondary {
   color: #32db64;
+}
+
+.note-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .note-wp-danger {
@@ -17557,6 +19063,18 @@ ion-popover {
   border-color: #ffbb00;
 }
 
+.item-radio-ios-primaryTwo.item-radio-checked ion-label {
+  color: #bc7e40;
+}
+
+.radio-ios-primaryTwo .radio-checked {
+  color: #bc7e40;
+}
+
+.radio-ios-primaryTwo .radio-checked .radio-inner {
+  border-color: #bc7e40;
+}
+
 .item-radio-ios-secondary.item-radio-checked ion-label {
   color: #32db64;
 }
@@ -17567,6 +19085,18 @@ ion-popover {
 
 .radio-ios-secondary .radio-checked .radio-inner {
   border-color: #32db64;
+}
+
+.item-radio-ios-secondaryT.item-radio-checked ion-label {
+  color: #7ad61d;
+}
+
+.radio-ios-secondaryT .radio-checked {
+  color: #7ad61d;
+}
+
+.radio-ios-secondaryT .radio-checked .radio-inner {
+  border-color: #7ad61d;
 }
 
 .item-radio-ios-danger.item-radio-checked ion-label {
@@ -17709,6 +19239,18 @@ ion-popover {
   background-color: #ffbb00;
 }
 
+.item-radio-md-primaryTwo.item-radio-checked ion-label {
+  color: #bc7e40;
+}
+
+.radio-md-primaryTwo .radio-checked {
+  border-color: #bc7e40;
+}
+
+.radio-md-primaryTwo .radio-inner {
+  background-color: #bc7e40;
+}
+
 .item-radio-md-secondary.item-radio-checked ion-label {
   color: #32db64;
 }
@@ -17719,6 +19261,18 @@ ion-popover {
 
 .radio-md-secondary .radio-inner {
   background-color: #32db64;
+}
+
+.item-radio-md-secondaryT.item-radio-checked ion-label {
+  color: #7ad61d;
+}
+
+.radio-md-secondaryT .radio-checked {
+  border-color: #7ad61d;
+}
+
+.radio-md-secondaryT .radio-inner {
+  background-color: #7ad61d;
 }
 
 .item-radio-md-danger.item-radio-checked ion-label {
@@ -17851,8 +19405,16 @@ ion-popover {
   border-color: #ffbb00;
 }
 
+.radio-wp-primaryTwo .radio-checked {
+  border-color: #bc7e40;
+}
+
 .radio-wp-secondary .radio-checked {
   border-color: #32db64;
+}
+
+.radio-wp-secondaryT .radio-checked {
+  border-color: #7ad61d;
 }
 
 .radio-wp-danger .radio-checked {
@@ -18051,9 +19613,19 @@ ion-range ion-icon {
   background: #ffbb00;
 }
 
+.range-ios-primaryTwo .range-bar-active,
+.range-ios-primaryTwo .range-tick-active {
+  background: #bc7e40;
+}
+
 .range-ios-secondary .range-bar-active,
 .range-ios-secondary .range-tick-active {
   background: #32db64;
+}
+
+.range-ios-secondaryT .range-bar-active,
+.range-ios-secondaryT .range-tick-active {
+  background: #7ad61d;
 }
 
 .range-ios-danger .range-bar-active,
@@ -18264,6 +19836,24 @@ ion-range ion-icon {
   background: #ffbb00;
 }
 
+.range-md-primaryTwo .range-md .range-knob-min.range-knob-min .range-knob {
+  border: 2px solid #bdbdbd;
+  background: #fff;
+}
+
+.range-md-primaryTwo .range-md .range-knob-min.range-knob-min .range-pin,
+.range-md-primaryTwo .range-md .range-knob-min.range-knob-min .range-pin::before {
+  color: #fff;
+  background: #bdbdbd;
+}
+
+.range-md-primaryTwo .range-bar-active,
+.range-md-primaryTwo .range-knob,
+.range-md-primaryTwo .range-pin,
+.range-md-primaryTwo .range-pin::before {
+  background: #bc7e40;
+}
+
 .range-md-secondary .range-md .range-knob-min.range-knob-min .range-knob {
   border: 2px solid #bdbdbd;
   background: #fff;
@@ -18280,6 +19870,24 @@ ion-range ion-icon {
 .range-md-secondary .range-pin,
 .range-md-secondary .range-pin::before {
   background: #32db64;
+}
+
+.range-md-secondaryT .range-md .range-knob-min.range-knob-min .range-knob {
+  border: 2px solid #bdbdbd;
+  background: #fff;
+}
+
+.range-md-secondaryT .range-md .range-knob-min.range-knob-min .range-pin,
+.range-md-secondaryT .range-md .range-knob-min.range-knob-min .range-pin::before {
+  color: #fff;
+  background: #bdbdbd;
+}
+
+.range-md-secondaryT .range-bar-active,
+.range-md-secondaryT .range-knob,
+.range-md-secondaryT .range-pin,
+.range-md-secondaryT .range-pin::before {
+  background: #7ad61d;
 }
 
 .range-md-danger .range-md .range-knob-min.range-knob-min .range-knob {
@@ -18488,11 +20096,25 @@ ion-range ion-icon {
   background: #ffbb00;
 }
 
+.range-wp-primaryTwo .range-bar-active,
+.range-wp-primaryTwo .range-tick-active,
+.range-wp-primaryTwo .range-knob,
+.range-wp-primaryTwo .range-pin {
+  background: #bc7e40;
+}
+
 .range-wp-secondary .range-bar-active,
 .range-wp-secondary .range-tick-active,
 .range-wp-secondary .range-knob,
 .range-wp-secondary .range-pin {
   background: #32db64;
+}
+
+.range-wp-secondaryT .range-bar-active,
+.range-wp-secondaryT .range-tick-active,
+.range-wp-secondaryT .range-knob,
+.range-wp-secondaryT .range-pin {
+  background: #7ad61d;
 }
 
 .range-wp-danger .range-bar-active,
@@ -18866,6 +20488,44 @@ ion-searchbar {
   color: #ffbb00;
 }
 
+.searchbar-ios-primaryTwo .searchbar-ios-cancel {
+  color: #bc7e40;
+}
+
+.searchbar-ios-primaryTwo .searchbar-ios-cancel:hover:not(.disable-hover) {
+  color: #c1884f;
+}
+
+.toolbar-ios-primaryTwo .searchbar-ios .searchbar-search-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2013%2013'><path%20fill='rgba(255,%20255,%20255,%200.5)'%20d='M5,1c2.2,0,4,1.8,4,4S7.2,9,5,9S1,7.2,1,5S2.8,1,5,1%20M5,0C2.2,0,0,2.2,0,5s2.2,5,5,5s5-2.2,5-5S7.8,0,5,0%20L5,0z'/><line%20stroke='rgba(255,%20255,%20255,%200.5)'%20stroke-miterlimit='10'%20x1='12.6'%20y1='12.6'%20x2='8.2'%20y2='8.2'/></svg>");
+}
+
+.toolbar-ios-primaryTwo .searchbar-ios .searchbar-input {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.toolbar-ios-primaryTwo .searchbar-ios .searchbar-input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toolbar-ios-primaryTwo .searchbar-ios .searchbar-input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toolbar-ios-primaryTwo .searchbar-ios .searchbar-input::-webkit-input-placeholder {
+  text-indent: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toolbar-ios-primaryTwo .searchbar-ios .searchbar-clear-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'><path%20fill='rgba(255,%20255,%20255,%200.5)'%20d='M403.1,108.9c-81.2-81.2-212.9-81.2-294.2,0s-81.2,212.9,0,294.2c81.2,81.2,212.9,81.2,294.2,0S484.3,190.1,403.1,108.9z%20M352,340.2L340.2,352l-84.4-84.2l-84,83.8L160,339.8l84-83.8l-84-83.8l11.8-11.8l84,83.8l84.4-84.2l11.8,11.8L267.6,256L352,340.2z'/></svg>");
+}
+
+.toolbar-ios-primaryTwo .searchbar-ios .searchbar-ios-cancel {
+  color: #fff;
+}
+
 .searchbar-ios-secondary .searchbar-ios-cancel {
   color: #32db64;
 }
@@ -18901,6 +20561,44 @@ ion-searchbar {
 }
 
 .toolbar-ios-secondary .searchbar-ios .searchbar-ios-cancel {
+  color: #fff;
+}
+
+.searchbar-ios-secondaryT .searchbar-ios-cancel {
+  color: #7ad61d;
+}
+
+.searchbar-ios-secondaryT .searchbar-ios-cancel:hover:not(.disable-hover) {
+  color: #85d92f;
+}
+
+.toolbar-ios-secondaryT .searchbar-ios .searchbar-search-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2013%2013'><path%20fill='rgba(255,%20255,%20255,%200.5)'%20d='M5,1c2.2,0,4,1.8,4,4S7.2,9,5,9S1,7.2,1,5S2.8,1,5,1%20M5,0C2.2,0,0,2.2,0,5s2.2,5,5,5s5-2.2,5-5S7.8,0,5,0%20L5,0z'/><line%20stroke='rgba(255,%20255,%20255,%200.5)'%20stroke-miterlimit='10'%20x1='12.6'%20y1='12.6'%20x2='8.2'%20y2='8.2'/></svg>");
+}
+
+.toolbar-ios-secondaryT .searchbar-ios .searchbar-input {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.toolbar-ios-secondaryT .searchbar-ios .searchbar-input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toolbar-ios-secondaryT .searchbar-ios .searchbar-input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toolbar-ios-secondaryT .searchbar-ios .searchbar-input::-webkit-input-placeholder {
+  text-indent: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.toolbar-ios-secondaryT .searchbar-ios .searchbar-clear-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,<svg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20512%20512'><path%20fill='rgba(255,%20255,%20255,%200.5)'%20d='M403.1,108.9c-81.2-81.2-212.9-81.2-294.2,0s-81.2,212.9,0,294.2c81.2,81.2,212.9,81.2,294.2,0S484.3,190.1,403.1,108.9z%20M352,340.2L340.2,352l-84.4-84.2l-84,83.8L160,339.8l84-83.8l-84-83.8l11.8-11.8l84,83.8l84.4-84.2l11.8,11.8L267.6,256L352,340.2z'/></svg>");
+}
+
+.toolbar-ios-secondaryT .searchbar-ios .searchbar-ios-cancel {
   color: #fff;
 }
 
@@ -19310,8 +21008,16 @@ ion-searchbar {
   border-color: #ffbb00;
 }
 
+.searchbar-wp-primaryTwo.searchbar-has-focus .searchbar-input-container {
+  border-color: #bc7e40;
+}
+
 .searchbar-wp-secondary.searchbar-has-focus .searchbar-input-container {
   border-color: #32db64;
+}
+
+.searchbar-wp-secondaryT.searchbar-has-focus .searchbar-input-container {
+  border-color: #7ad61d;
 }
 
 .searchbar-wp-danger.searchbar-has-focus .searchbar-input-container {
@@ -19492,6 +21198,32 @@ ion-segment {
   color: #ffbb00;
 }
 
+.segment-ios-primaryTwo .segment-button {
+  border-color: #bc7e40;
+  color: #bc7e40;
+}
+
+.segment-ios-primaryTwo .segment-button:hover:not(.segment-activated) {
+  background-color: rgba(188, 126, 64, 0.1);
+}
+
+.segment-ios-primaryTwo .segment-button:active:not(.segment-activated) {
+  background-color: rgba(188, 126, 64, 0.16);
+}
+
+.segment-ios-primaryTwo .segment-button.segment-activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.segment-ios-primaryTwo .segment-button-disabled {
+  color: rgba(188, 126, 64, 0.3);
+}
+
+.toolbar-ios-primaryTwo .segment-ios .segment-button.segment-activated {
+  color: #bc7e40;
+}
+
 .segment-ios-secondary .segment-button {
   border-color: #32db64;
   color: #32db64;
@@ -19516,6 +21248,32 @@ ion-segment {
 
 .toolbar-ios-secondary .segment-ios .segment-button.segment-activated {
   color: #32db64;
+}
+
+.segment-ios-secondaryT .segment-button {
+  border-color: #7ad61d;
+  color: #7ad61d;
+}
+
+.segment-ios-secondaryT .segment-button:hover:not(.segment-activated) {
+  background-color: rgba(122, 214, 29, 0.1);
+}
+
+.segment-ios-secondaryT .segment-button:active:not(.segment-activated) {
+  background-color: rgba(122, 214, 29, 0.16);
+}
+
+.segment-ios-secondaryT .segment-button.segment-activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.segment-ios-secondaryT .segment-button-disabled {
+  color: rgba(122, 214, 29, 0.3);
+}
+
+.toolbar-ios-secondaryT .segment-ios .segment-button.segment-activated {
+  color: #7ad61d;
 }
 
 .segment-ios-danger .segment-button {
@@ -19705,6 +21463,16 @@ ion-segment {
   opacity: 1;
 }
 
+.segment-md-primaryTwo .segment-button {
+  color: #bc7e40;
+}
+
+.segment-md-primaryTwo .segment-button.activated, .segment-md-primaryTwo .segment-button.segment-activated {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  opacity: 1;
+}
+
 .segment-md-secondary .segment-button {
   color: #32db64;
 }
@@ -19712,6 +21480,16 @@ ion-segment {
 .segment-md-secondary .segment-button.activated, .segment-md-secondary .segment-button.segment-activated {
   border-color: #32db64;
   color: #32db64;
+  opacity: 1;
+}
+
+.segment-md-secondaryT .segment-button {
+  color: #7ad61d;
+}
+
+.segment-md-secondaryT .segment-button.activated, .segment-md-secondaryT .segment-button.segment-activated {
+  border-color: #7ad61d;
+  color: #7ad61d;
   opacity: 1;
 }
 
@@ -19813,6 +21591,16 @@ ion-segment {
   opacity: 1;
 }
 
+.segment-wp-primaryTwo .segment-button {
+  color: #bc7e40;
+}
+
+.segment-wp-primaryTwo .segment-button.activated, .segment-wp-primaryTwo .segment-button.segment-activated {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  opacity: 1;
+}
+
 .segment-wp-secondary .segment-button {
   color: #32db64;
 }
@@ -19820,6 +21608,16 @@ ion-segment {
 .segment-wp-secondary .segment-button.activated, .segment-wp-secondary .segment-button.segment-activated {
   border-color: #32db64;
   color: #32db64;
+  opacity: 1;
+}
+
+.segment-wp-secondaryT .segment-button {
+  color: #7ad61d;
+}
+
+.segment-wp-secondaryT .segment-button.activated, .segment-wp-secondaryT .segment-button.segment-activated {
+  border-color: #7ad61d;
+  color: #7ad61d;
   opacity: 1;
 }
 
@@ -20807,6 +22605,18 @@ ion-spinner.spinner-paused svg {
   fill: #ffbb00;
 }
 
+.spinner-ios-primaryTwo.spinner-ios line,
+.spinner-ios-primaryTwo.spinner-ios-small line,
+.spinner-ios-primaryTwo.spinner-crescent circle {
+  stroke: #bc7e40;
+}
+
+.spinner-ios-primaryTwo.spinner-bubbles circle,
+.spinner-ios-primaryTwo.spinner-circles circle,
+.spinner-ios-primaryTwo.spinner-dots circle {
+  fill: #bc7e40;
+}
+
 .spinner-ios-secondary.spinner-ios line,
 .spinner-ios-secondary.spinner-ios-small line,
 .spinner-ios-secondary.spinner-crescent circle {
@@ -20817,6 +22627,18 @@ ion-spinner.spinner-paused svg {
 .spinner-ios-secondary.spinner-circles circle,
 .spinner-ios-secondary.spinner-dots circle {
   fill: #32db64;
+}
+
+.spinner-ios-secondaryT.spinner-ios line,
+.spinner-ios-secondaryT.spinner-ios-small line,
+.spinner-ios-secondaryT.spinner-crescent circle {
+  stroke: #7ad61d;
+}
+
+.spinner-ios-secondaryT.spinner-bubbles circle,
+.spinner-ios-secondaryT.spinner-circles circle,
+.spinner-ios-secondaryT.spinner-dots circle {
+  fill: #7ad61d;
 }
 
 .spinner-ios-danger.spinner-ios line,
@@ -20912,6 +22734,18 @@ ion-spinner.spinner-paused svg {
   fill: #ffbb00;
 }
 
+.spinner-md-primaryTwo.spinner-ios line,
+.spinner-md-primaryTwo.spinner-ios-small line,
+.spinner-md-primaryTwo.spinner-crescent circle {
+  stroke: #bc7e40;
+}
+
+.spinner-md-primaryTwo.spinner-bubbles circle,
+.spinner-md-primaryTwo.spinner-circles circle,
+.spinner-md-primaryTwo.spinner-dots circle {
+  fill: #bc7e40;
+}
+
 .spinner-md-secondary.spinner-ios line,
 .spinner-md-secondary.spinner-ios-small line,
 .spinner-md-secondary.spinner-crescent circle {
@@ -20922,6 +22756,18 @@ ion-spinner.spinner-paused svg {
 .spinner-md-secondary.spinner-circles circle,
 .spinner-md-secondary.spinner-dots circle {
   fill: #32db64;
+}
+
+.spinner-md-secondaryT.spinner-ios line,
+.spinner-md-secondaryT.spinner-ios-small line,
+.spinner-md-secondaryT.spinner-crescent circle {
+  stroke: #7ad61d;
+}
+
+.spinner-md-secondaryT.spinner-bubbles circle,
+.spinner-md-secondaryT.spinner-circles circle,
+.spinner-md-secondaryT.spinner-dots circle {
+  fill: #7ad61d;
 }
 
 .spinner-md-danger.spinner-ios line,
@@ -21017,6 +22863,18 @@ ion-spinner.spinner-paused svg {
   fill: #ffbb00;
 }
 
+.spinner-wp-primaryTwo.spinner-ios line,
+.spinner-wp-primaryTwo.spinner-ios-small line,
+.spinner-wp-primaryTwo.spinner-crescent circle {
+  stroke: #bc7e40;
+}
+
+.spinner-wp-primaryTwo.spinner-bubbles circle,
+.spinner-wp-primaryTwo.spinner-circles circle,
+.spinner-wp-primaryTwo.spinner-dots circle {
+  fill: #bc7e40;
+}
+
 .spinner-wp-secondary.spinner-ios line,
 .spinner-wp-secondary.spinner-ios-small line,
 .spinner-wp-secondary.spinner-crescent circle {
@@ -21027,6 +22885,18 @@ ion-spinner.spinner-paused svg {
 .spinner-wp-secondary.spinner-circles circle,
 .spinner-wp-secondary.spinner-dots circle {
   fill: #32db64;
+}
+
+.spinner-wp-secondaryT.spinner-ios line,
+.spinner-wp-secondaryT.spinner-ios-small line,
+.spinner-wp-secondaryT.spinner-crescent circle {
+  stroke: #7ad61d;
+}
+
+.spinner-wp-secondaryT.spinner-bubbles circle,
+.spinner-wp-secondaryT.spinner-circles circle,
+.spinner-wp-secondaryT.spinner-dots circle {
+  fill: #7ad61d;
 }
 
 .spinner-wp-danger.spinner-ios line,
@@ -21509,6 +23379,23 @@ ion-spinner.spinner-paused svg {
   color: #000;
 }
 
+.tabs-ios-primaryTwo .tabbar {
+  border-color: #966533;
+  background-color: #bc7e40;
+}
+
+.tabs-ios-primaryTwo .tab-button,
+.tabs-ios-primaryTwo .tab-button-icon,
+.tabs-ios-primaryTwo .tab-button:hover:not(.disable-hover),
+.tabs-ios-primaryTwo .tab-button:hover:not(.disable-hover) .tab-button-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tabs-ios-primaryTwo .tab-button[aria-selected=true],
+.tabs-ios-primaryTwo .tab-button[aria-selected=true] .tab-button-icon {
+  color: #fff;
+}
+
 .tabs-ios-secondary .tabbar {
   border-color: #21b94e;
   background-color: #32db64;
@@ -21523,6 +23410,23 @@ ion-spinner.spinner-paused svg {
 
 .tabs-ios-secondary .tab-button[aria-selected=true],
 .tabs-ios-secondary .tab-button[aria-selected=true] .tab-button-icon {
+  color: #fff;
+}
+
+.tabs-ios-secondaryT .tabbar {
+  border-color: #60a917;
+  background-color: #7ad61d;
+}
+
+.tabs-ios-secondaryT .tab-button,
+.tabs-ios-secondaryT .tab-button-icon,
+.tabs-ios-secondaryT .tab-button:hover:not(.disable-hover),
+.tabs-ios-secondaryT .tab-button:hover:not(.disable-hover) .tab-button-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tabs-ios-secondaryT .tab-button[aria-selected=true],
+.tabs-ios-secondaryT .tab-button[aria-selected=true] .tab-button-icon {
   color: #fff;
 }
 
@@ -21742,6 +23646,25 @@ ion-spinner.spinner-paused svg {
   background: #000;
 }
 
+.tabs-md-primaryTwo .tabbar {
+  background-color: #bc7e40;
+}
+
+.tabs-md-primaryTwo .tab-button,
+.tabs-md-primaryTwo .tab-button-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tabs-md-primaryTwo .tab-button:hover:not(.disable-hover),
+.tabs-md-primaryTwo .tab-button[aria-selected=true],
+.tabs-md-primaryTwo .tab-button[aria-selected=true] .tab-button-icon {
+  color: #fff;
+}
+
+.tabs-md-primaryTwo[tabsHighlight=true] .tab-highlight {
+  background: #fff;
+}
+
 .tabs-md-secondary .tabbar {
   background-color: #32db64;
 }
@@ -21758,6 +23681,25 @@ ion-spinner.spinner-paused svg {
 }
 
 .tabs-md-secondary[tabsHighlight=true] .tab-highlight {
+  background: #fff;
+}
+
+.tabs-md-secondaryT .tabbar {
+  background-color: #7ad61d;
+}
+
+.tabs-md-secondaryT .tab-button,
+.tabs-md-secondaryT .tab-button-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tabs-md-secondaryT .tab-button:hover:not(.disable-hover),
+.tabs-md-secondaryT .tab-button[aria-selected=true],
+.tabs-md-secondaryT .tab-button[aria-selected=true] .tab-button-icon {
+  color: #fff;
+}
+
+.tabs-md-secondaryT[tabsHighlight=true] .tab-highlight {
   background: #fff;
 }
 
@@ -21948,6 +23890,23 @@ ion-spinner.spinner-paused svg {
   color: #000;
 }
 
+.tabs-wp-primaryTwo .tabbar {
+  background-color: #bc7e40;
+}
+
+.tabs-wp-primaryTwo .tab-button,
+.tabs-wp-primaryTwo .tab-button-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tabs-wp-primaryTwo .tab-button:hover:not(.disable-hover),
+.tabs-wp-primaryTwo .tab-button:hover:not(.disable-hover) .tab-button-icon,
+.tabs-wp-primaryTwo .tab-button[aria-selected=true],
+.tabs-wp-primaryTwo .tab-button[aria-selected=true] .tab-button-icon {
+  border-color: #fff;
+  color: #fff;
+}
+
 .tabs-wp-secondary .tabbar {
   background-color: #32db64;
 }
@@ -21961,6 +23920,23 @@ ion-spinner.spinner-paused svg {
 .tabs-wp-secondary .tab-button:hover:not(.disable-hover) .tab-button-icon,
 .tabs-wp-secondary .tab-button[aria-selected=true],
 .tabs-wp-secondary .tab-button[aria-selected=true] .tab-button-icon {
+  border-color: #fff;
+  color: #fff;
+}
+
+.tabs-wp-secondaryT .tabbar {
+  background-color: #7ad61d;
+}
+
+.tabs-wp-secondaryT .tab-button,
+.tabs-wp-secondaryT .tab-button-icon {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.tabs-wp-secondaryT .tab-button:hover:not(.disable-hover),
+.tabs-wp-secondaryT .tab-button:hover:not(.disable-hover) .tab-button-icon,
+.tabs-wp-secondaryT .tab-button[aria-selected=true],
+.tabs-wp-secondaryT .tab-button[aria-selected=true] .tab-button-icon {
   border-color: #fff;
   color: #fff;
 }
@@ -22297,8 +24273,16 @@ ion-toast {
   background-color: #ffbb00;
 }
 
+.toggle-ios-primaryTwo.toggle-checked .toggle-icon {
+  background-color: #bc7e40;
+}
+
 .toggle-ios-secondary.toggle-checked .toggle-icon {
   background-color: #32db64;
+}
+
+.toggle-ios-secondaryT.toggle-checked .toggle-icon {
+  background-color: #7ad61d;
 }
 
 .toggle-ios-danger.toggle-checked .toggle-icon {
@@ -22406,12 +24390,28 @@ ion-toast {
   background-color: #ffbb00;
 }
 
+.toggle-md-primaryTwo.toggle-checked .toggle-icon {
+  background-color: #debe9e;
+}
+
+.toggle-md-primaryTwo.toggle-checked .toggle-inner {
+  background-color: #bc7e40;
+}
+
 .toggle-md-secondary.toggle-checked .toggle-icon {
   background-color: #9eeeb6;
 }
 
 .toggle-md-secondary.toggle-checked .toggle-inner {
   background-color: #32db64;
+}
+
+.toggle-md-secondaryT.toggle-checked .toggle-icon {
+  background-color: #baee84;
+}
+
+.toggle-md-secondaryT.toggle-checked .toggle-inner {
+  background-color: #7ad61d;
 }
 
 .toggle-md-danger.toggle-checked .toggle-icon {
@@ -22537,12 +24537,30 @@ ion-toast {
   background-color: #000;
 }
 
+.toggle-wp-primaryTwo.toggle-checked .toggle-icon {
+  border-color: #bc7e40;
+  background-color: #bc7e40;
+}
+
+.toggle-wp-primaryTwo.toggle-checked .toggle-inner {
+  background-color: #fff;
+}
+
 .toggle-wp-secondary.toggle-checked .toggle-icon {
   border-color: #32db64;
   background-color: #32db64;
 }
 
 .toggle-wp-secondary.toggle-checked .toggle-inner {
+  background-color: #fff;
+}
+
+.toggle-wp-secondaryT.toggle-checked .toggle-icon {
+  border-color: #7ad61d;
+  background-color: #7ad61d;
+}
+
+.toggle-wp-secondaryT.toggle-checked .toggle-inner {
   background-color: #fff;
 }
 
@@ -23056,6 +25074,46 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-ios-primary .bar-button-primaryTwo-ios,
+.toolbar-ios-primary .bar-button-default.bar-button-ios-primaryTwo,
+.toolbar-ios-primary .bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-primary .bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.toolbar-ios-primary .bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.toolbar-ios-primary .bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-ios-primary .bar-button-primaryTwo-ios.activated,
+.toolbar-ios-primary .bar-button-default.bar-button-ios-primaryTwo.activated,
+.toolbar-ios-primary .bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primary .bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-primary .bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-primary .bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-primary .bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-ios-primary .bar-button-secondary-ios,
 .toolbar-ios-primary .bar-button-default.bar-button-ios-secondary,
 .toolbar-ios-primary .bar-button-clear-ios-secondary {
@@ -23094,6 +25152,46 @@ ion-navbar.toolbar {
 .toolbar-ios-primary .bar-button-solid-ios-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-ios-primary .bar-button-secondaryT-ios,
+.toolbar-ios-primary .bar-button-default.bar-button-ios-secondaryT,
+.toolbar-ios-primary .bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-primary .bar-button-secondaryT-ios:hover:not(.disable-hover),
+.toolbar-ios-primary .bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.toolbar-ios-primary .bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-ios-primary .bar-button-secondaryT-ios.activated,
+.toolbar-ios-primary .bar-button-default.bar-button-ios-secondaryT.activated,
+.toolbar-ios-primary .bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primary .bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-primary .bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-primary .bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-primary .bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-ios-primary .bar-button-danger-ios,
@@ -23336,6 +25434,416 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-ios-primaryTwo .toolbar-background-ios {
+  background: #bc7e40;
+}
+
+.toolbar-ios-primaryTwo .toolbar-title-ios,
+.toolbar-ios-primaryTwo .bar-button-clear-ios,
+.toolbar-ios-primaryTwo .bar-button-default-ios {
+  color: #fff;
+}
+
+.toolbar-ios-primaryTwo .bar-button-primary-ios,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-primary,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-primary {
+  color: #ffbb00;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-primary-ios:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-primary:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-clear-ios-primary:hover:not(.disable-hover) {
+  color: #ffbb00;
+}
+
+.toolbar-ios-primaryTwo .bar-button-primary-ios.activated,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-primary.activated,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-primary.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-primary {
+  border-color: #ffbb00;
+  color: #ffbb00;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-primary.activated {
+  color: #000;
+  background-color: #ffbb00;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-primary {
+  color: #000;
+  background-color: #ffbb00;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-primary.activated {
+  color: #000;
+  background-color: #ffc014;
+}
+
+.toolbar-ios-primaryTwo .bar-button-primaryTwo-ios,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-primaryTwo,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-ios-primaryTwo .bar-button-primaryTwo-ios.activated,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-primaryTwo.activated,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-ios-primaryTwo .bar-button-secondary-ios,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-secondary,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-secondary {
+  color: #32db64;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-secondary-ios:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-secondary:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-clear-ios-secondary:hover:not(.disable-hover) {
+  color: #32db64;
+}
+
+.toolbar-ios-primaryTwo .bar-button-secondary-ios.activated,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-secondary.activated,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-secondary.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-secondary {
+  border-color: #32db64;
+  color: #32db64;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-secondary.activated {
+  color: #fff;
+  background-color: #32db64;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-secondary {
+  color: #fff;
+  background-color: #32db64;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-secondary.activated {
+  color: #fff;
+  background-color: #2ec95c;
+}
+
+.toolbar-ios-primaryTwo .bar-button-secondaryT-ios,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-secondaryT,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-secondaryT-ios:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-ios-primaryTwo .bar-button-secondaryT-ios.activated,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-secondaryT.activated,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-ios-primaryTwo .bar-button-danger-ios,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-danger,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-danger {
+  color: #f53d3d;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-danger-ios:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-danger:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-clear-ios-danger:hover:not(.disable-hover) {
+  color: #f53d3d;
+}
+
+.toolbar-ios-primaryTwo .bar-button-danger-ios.activated,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-danger.activated,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-danger.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-danger {
+  border-color: #f53d3d;
+  color: #f53d3d;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-danger.activated {
+  color: #fff;
+  background-color: #f53d3d;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-danger {
+  color: #fff;
+  background-color: #f53d3d;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-danger.activated {
+  color: #fff;
+  background-color: #e13838;
+}
+
+.toolbar-ios-primaryTwo .bar-button-light-ios,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-light,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-light {
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-light-ios:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-light:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-clear-ios-light:hover:not(.disable-hover) {
+  color: #f4f4f4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-light-ios.activated,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-light.activated,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-light.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-light {
+  border-color: #f4f4f4;
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-light.activated {
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-light {
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-light.activated {
+  color: #000;
+  background-color: #e0e0e0;
+}
+
+.toolbar-ios-primaryTwo .bar-button-dark-ios,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-dark,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-dark {
+  color: #222;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-dark-ios:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-dark:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-clear-ios-dark:hover:not(.disable-hover) {
+  color: #222;
+}
+
+.toolbar-ios-primaryTwo .bar-button-dark-ios.activated,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-dark.activated,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-dark.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-dark {
+  border-color: #222;
+  color: #222;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-dark.activated {
+  color: #fff;
+  background-color: #222;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-dark {
+  color: #fff;
+  background-color: #222;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-dark.activated {
+  color: #fff;
+  background-color: #343434;
+}
+
+.toolbar-ios-primaryTwo .bar-button-quoteBackground-ios,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-quoteBackground,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-quoteBackground {
+  color: #f2f7c0;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-quoteBackground-ios:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-quoteBackground:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-clear-ios-quoteBackground:hover:not(.disable-hover) {
+  color: #f2f7c0;
+}
+
+.toolbar-ios-primaryTwo .bar-button-quoteBackground-ios.activated,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-quoteBackground.activated,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-quoteBackground.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-quoteBackground {
+  border-color: #f2f7c0;
+  color: #f2f7c0;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-quoteBackground.activated {
+  color: #000;
+  background-color: #f2f7c0;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-quoteBackground {
+  color: #000;
+  background-color: #f2f7c0;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-quoteBackground.activated {
+  color: #000;
+  background-color: #dfe3b1;
+}
+
+.toolbar-ios-primaryTwo .bar-button-altQuoteBackground-ios,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-altQuoteBackground,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-altQuoteBackground {
+  color: #f9ebc2;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-altQuoteBackground-ios:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-altQuoteBackground:hover:not(.disable-hover),
+.toolbar-ios-primaryTwo .bar-button-clear-ios-altQuoteBackground:hover:not(.disable-hover) {
+  color: #f9ebc2;
+}
+
+.toolbar-ios-primaryTwo .bar-button-altQuoteBackground-ios.activated,
+.toolbar-ios-primaryTwo .bar-button-default.bar-button-ios-altQuoteBackground.activated,
+.toolbar-ios-primaryTwo .bar-button-clear-ios-altQuoteBackground.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-altQuoteBackground {
+  border-color: #f9ebc2;
+  color: #f9ebc2;
+  background-color: transparent;
+}
+
+.toolbar-ios-primaryTwo .bar-button-outline-ios-altQuoteBackground.activated {
+  color: #000;
+  background-color: #f9ebc2;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-altQuoteBackground {
+  color: #000;
+  background-color: #f9ebc2;
+}
+
+.toolbar-ios-primaryTwo .bar-button-solid-ios-altQuoteBackground.activated {
+  color: #000;
+  background-color: #e5d8b2;
+}
+
+.bar-button-primaryTwo-ios,
+.bar-button-default.bar-button-ios-primaryTwo,
+.bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.bar-button-primaryTwo-ios.activated,
+.bar-button-default.bar-button-ios-primaryTwo.activated,
+.bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-ios-secondary .toolbar-background-ios {
   background: #32db64;
 }
@@ -23386,6 +25894,46 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-ios-secondary .bar-button-primaryTwo-ios,
+.toolbar-ios-secondary .bar-button-default.bar-button-ios-primaryTwo,
+.toolbar-ios-secondary .bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondary .bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.toolbar-ios-secondary .bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.toolbar-ios-secondary .bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-ios-secondary .bar-button-primaryTwo-ios.activated,
+.toolbar-ios-secondary .bar-button-default.bar-button-ios-primaryTwo.activated,
+.toolbar-ios-secondary .bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondary .bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondary .bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-secondary .bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-secondary .bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-ios-secondary .bar-button-secondary-ios,
 .toolbar-ios-secondary .bar-button-default.bar-button-ios-secondary,
 .toolbar-ios-secondary .bar-button-clear-ios-secondary {
@@ -23424,6 +25972,46 @@ ion-navbar.toolbar {
 .toolbar-ios-secondary .bar-button-solid-ios-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-ios-secondary .bar-button-secondaryT-ios,
+.toolbar-ios-secondary .bar-button-default.bar-button-ios-secondaryT,
+.toolbar-ios-secondary .bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondary .bar-button-secondaryT-ios:hover:not(.disable-hover),
+.toolbar-ios-secondary .bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.toolbar-ios-secondary .bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-ios-secondary .bar-button-secondaryT-ios.activated,
+.toolbar-ios-secondary .bar-button-default.bar-button-ios-secondaryT.activated,
+.toolbar-ios-secondary .bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondary .bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondary .bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-secondary .bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-secondary .bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-ios-secondary .bar-button-danger-ios,
@@ -23666,6 +26254,416 @@ ion-navbar.toolbar {
   background-color: #2ec95c;
 }
 
+.toolbar-ios-secondaryT .toolbar-background-ios {
+  background: #7ad61d;
+}
+
+.toolbar-ios-secondaryT .toolbar-title-ios,
+.toolbar-ios-secondaryT .bar-button-clear-ios,
+.toolbar-ios-secondaryT .bar-button-default-ios {
+  color: #fff;
+}
+
+.toolbar-ios-secondaryT .bar-button-primary-ios,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-primary,
+.toolbar-ios-secondaryT .bar-button-clear-ios-primary {
+  color: #ffbb00;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-primary-ios:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-primary:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-clear-ios-primary:hover:not(.disable-hover) {
+  color: #ffbb00;
+}
+
+.toolbar-ios-secondaryT .bar-button-primary-ios.activated,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-primary.activated,
+.toolbar-ios-secondaryT .bar-button-clear-ios-primary.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-primary {
+  border-color: #ffbb00;
+  color: #ffbb00;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-primary.activated {
+  color: #000;
+  background-color: #ffbb00;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-primary {
+  color: #000;
+  background-color: #ffbb00;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-primary.activated {
+  color: #000;
+  background-color: #ffc014;
+}
+
+.toolbar-ios-secondaryT .bar-button-primaryTwo-ios,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-primaryTwo,
+.toolbar-ios-secondaryT .bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-ios-secondaryT .bar-button-primaryTwo-ios.activated,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-primaryTwo.activated,
+.toolbar-ios-secondaryT .bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-ios-secondaryT .bar-button-secondary-ios,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-secondary,
+.toolbar-ios-secondaryT .bar-button-clear-ios-secondary {
+  color: #32db64;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-secondary-ios:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-secondary:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-clear-ios-secondary:hover:not(.disable-hover) {
+  color: #32db64;
+}
+
+.toolbar-ios-secondaryT .bar-button-secondary-ios.activated,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-secondary.activated,
+.toolbar-ios-secondaryT .bar-button-clear-ios-secondary.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-secondary {
+  border-color: #32db64;
+  color: #32db64;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-secondary.activated {
+  color: #fff;
+  background-color: #32db64;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-secondary {
+  color: #fff;
+  background-color: #32db64;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-secondary.activated {
+  color: #fff;
+  background-color: #2ec95c;
+}
+
+.toolbar-ios-secondaryT .bar-button-secondaryT-ios,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-secondaryT,
+.toolbar-ios-secondaryT .bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-secondaryT-ios:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-ios-secondaryT .bar-button-secondaryT-ios.activated,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-secondaryT.activated,
+.toolbar-ios-secondaryT .bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-ios-secondaryT .bar-button-danger-ios,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-danger,
+.toolbar-ios-secondaryT .bar-button-clear-ios-danger {
+  color: #f53d3d;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-danger-ios:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-danger:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-clear-ios-danger:hover:not(.disable-hover) {
+  color: #f53d3d;
+}
+
+.toolbar-ios-secondaryT .bar-button-danger-ios.activated,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-danger.activated,
+.toolbar-ios-secondaryT .bar-button-clear-ios-danger.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-danger {
+  border-color: #f53d3d;
+  color: #f53d3d;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-danger.activated {
+  color: #fff;
+  background-color: #f53d3d;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-danger {
+  color: #fff;
+  background-color: #f53d3d;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-danger.activated {
+  color: #fff;
+  background-color: #e13838;
+}
+
+.toolbar-ios-secondaryT .bar-button-light-ios,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-light,
+.toolbar-ios-secondaryT .bar-button-clear-ios-light {
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-light-ios:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-light:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-clear-ios-light:hover:not(.disable-hover) {
+  color: #f4f4f4;
+}
+
+.toolbar-ios-secondaryT .bar-button-light-ios.activated,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-light.activated,
+.toolbar-ios-secondaryT .bar-button-clear-ios-light.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-light {
+  border-color: #f4f4f4;
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-light.activated {
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-light {
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-light.activated {
+  color: #000;
+  background-color: #e0e0e0;
+}
+
+.toolbar-ios-secondaryT .bar-button-dark-ios,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-dark,
+.toolbar-ios-secondaryT .bar-button-clear-ios-dark {
+  color: #222;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-dark-ios:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-dark:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-clear-ios-dark:hover:not(.disable-hover) {
+  color: #222;
+}
+
+.toolbar-ios-secondaryT .bar-button-dark-ios.activated,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-dark.activated,
+.toolbar-ios-secondaryT .bar-button-clear-ios-dark.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-dark {
+  border-color: #222;
+  color: #222;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-dark.activated {
+  color: #fff;
+  background-color: #222;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-dark {
+  color: #fff;
+  background-color: #222;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-dark.activated {
+  color: #fff;
+  background-color: #343434;
+}
+
+.toolbar-ios-secondaryT .bar-button-quoteBackground-ios,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-quoteBackground,
+.toolbar-ios-secondaryT .bar-button-clear-ios-quoteBackground {
+  color: #f2f7c0;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-quoteBackground-ios:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-quoteBackground:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-clear-ios-quoteBackground:hover:not(.disable-hover) {
+  color: #f2f7c0;
+}
+
+.toolbar-ios-secondaryT .bar-button-quoteBackground-ios.activated,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-quoteBackground.activated,
+.toolbar-ios-secondaryT .bar-button-clear-ios-quoteBackground.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-quoteBackground {
+  border-color: #f2f7c0;
+  color: #f2f7c0;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-quoteBackground.activated {
+  color: #000;
+  background-color: #f2f7c0;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-quoteBackground {
+  color: #000;
+  background-color: #f2f7c0;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-quoteBackground.activated {
+  color: #000;
+  background-color: #dfe3b1;
+}
+
+.toolbar-ios-secondaryT .bar-button-altQuoteBackground-ios,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-altQuoteBackground,
+.toolbar-ios-secondaryT .bar-button-clear-ios-altQuoteBackground {
+  color: #f9ebc2;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-altQuoteBackground-ios:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-altQuoteBackground:hover:not(.disable-hover),
+.toolbar-ios-secondaryT .bar-button-clear-ios-altQuoteBackground:hover:not(.disable-hover) {
+  color: #f9ebc2;
+}
+
+.toolbar-ios-secondaryT .bar-button-altQuoteBackground-ios.activated,
+.toolbar-ios-secondaryT .bar-button-default.bar-button-ios-altQuoteBackground.activated,
+.toolbar-ios-secondaryT .bar-button-clear-ios-altQuoteBackground.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-altQuoteBackground {
+  border-color: #f9ebc2;
+  color: #f9ebc2;
+  background-color: transparent;
+}
+
+.toolbar-ios-secondaryT .bar-button-outline-ios-altQuoteBackground.activated {
+  color: #000;
+  background-color: #f9ebc2;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-altQuoteBackground {
+  color: #000;
+  background-color: #f9ebc2;
+}
+
+.toolbar-ios-secondaryT .bar-button-solid-ios-altQuoteBackground.activated {
+  color: #000;
+  background-color: #e5d8b2;
+}
+
+.bar-button-secondaryT-ios,
+.bar-button-default.bar-button-ios-secondaryT,
+.bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.bar-button-secondaryT-ios:hover:not(.disable-hover),
+.bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.bar-button-secondaryT-ios.activated,
+.bar-button-default.bar-button-ios-secondaryT.activated,
+.bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
 .toolbar-ios-danger .toolbar-background-ios {
   background: #f53d3d;
 }
@@ -23716,6 +26714,46 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-ios-danger .bar-button-primaryTwo-ios,
+.toolbar-ios-danger .bar-button-default.bar-button-ios-primaryTwo,
+.toolbar-ios-danger .bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-danger .bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.toolbar-ios-danger .bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.toolbar-ios-danger .bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-ios-danger .bar-button-primaryTwo-ios.activated,
+.toolbar-ios-danger .bar-button-default.bar-button-ios-primaryTwo.activated,
+.toolbar-ios-danger .bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-danger .bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-danger .bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-danger .bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-danger .bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-ios-danger .bar-button-secondary-ios,
 .toolbar-ios-danger .bar-button-default.bar-button-ios-secondary,
 .toolbar-ios-danger .bar-button-clear-ios-secondary {
@@ -23754,6 +26792,46 @@ ion-navbar.toolbar {
 .toolbar-ios-danger .bar-button-solid-ios-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-ios-danger .bar-button-secondaryT-ios,
+.toolbar-ios-danger .bar-button-default.bar-button-ios-secondaryT,
+.toolbar-ios-danger .bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-danger .bar-button-secondaryT-ios:hover:not(.disable-hover),
+.toolbar-ios-danger .bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.toolbar-ios-danger .bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-ios-danger .bar-button-secondaryT-ios.activated,
+.toolbar-ios-danger .bar-button-default.bar-button-ios-secondaryT.activated,
+.toolbar-ios-danger .bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-danger .bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-danger .bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-danger .bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-danger .bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-ios-danger .bar-button-danger-ios,
@@ -24046,6 +27124,46 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-ios-light .bar-button-primaryTwo-ios,
+.toolbar-ios-light .bar-button-default.bar-button-ios-primaryTwo,
+.toolbar-ios-light .bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-light .bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.toolbar-ios-light .bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.toolbar-ios-light .bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-ios-light .bar-button-primaryTwo-ios.activated,
+.toolbar-ios-light .bar-button-default.bar-button-ios-primaryTwo.activated,
+.toolbar-ios-light .bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-light .bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-light .bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-light .bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-light .bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-ios-light .bar-button-secondary-ios,
 .toolbar-ios-light .bar-button-default.bar-button-ios-secondary,
 .toolbar-ios-light .bar-button-clear-ios-secondary {
@@ -24084,6 +27202,46 @@ ion-navbar.toolbar {
 .toolbar-ios-light .bar-button-solid-ios-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-ios-light .bar-button-secondaryT-ios,
+.toolbar-ios-light .bar-button-default.bar-button-ios-secondaryT,
+.toolbar-ios-light .bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-light .bar-button-secondaryT-ios:hover:not(.disable-hover),
+.toolbar-ios-light .bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.toolbar-ios-light .bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-ios-light .bar-button-secondaryT-ios.activated,
+.toolbar-ios-light .bar-button-default.bar-button-ios-secondaryT.activated,
+.toolbar-ios-light .bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-light .bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-light .bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-light .bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-light .bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-ios-light .bar-button-danger-ios,
@@ -24376,6 +27534,46 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-ios-dark .bar-button-primaryTwo-ios,
+.toolbar-ios-dark .bar-button-default.bar-button-ios-primaryTwo,
+.toolbar-ios-dark .bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-dark .bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.toolbar-ios-dark .bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.toolbar-ios-dark .bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-ios-dark .bar-button-primaryTwo-ios.activated,
+.toolbar-ios-dark .bar-button-default.bar-button-ios-primaryTwo.activated,
+.toolbar-ios-dark .bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-dark .bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-dark .bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-dark .bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-dark .bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-ios-dark .bar-button-secondary-ios,
 .toolbar-ios-dark .bar-button-default.bar-button-ios-secondary,
 .toolbar-ios-dark .bar-button-clear-ios-secondary {
@@ -24414,6 +27612,46 @@ ion-navbar.toolbar {
 .toolbar-ios-dark .bar-button-solid-ios-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-ios-dark .bar-button-secondaryT-ios,
+.toolbar-ios-dark .bar-button-default.bar-button-ios-secondaryT,
+.toolbar-ios-dark .bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-dark .bar-button-secondaryT-ios:hover:not(.disable-hover),
+.toolbar-ios-dark .bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.toolbar-ios-dark .bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-ios-dark .bar-button-secondaryT-ios.activated,
+.toolbar-ios-dark .bar-button-default.bar-button-ios-secondaryT.activated,
+.toolbar-ios-dark .bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-dark .bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-dark .bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-dark .bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-dark .bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-ios-dark .bar-button-danger-ios,
@@ -24706,6 +27944,46 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-ios-quoteBackground .bar-button-primaryTwo-ios,
+.toolbar-ios-quoteBackground .bar-button-default.bar-button-ios-primaryTwo,
+.toolbar-ios-quoteBackground .bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-quoteBackground .bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.toolbar-ios-quoteBackground .bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.toolbar-ios-quoteBackground .bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-ios-quoteBackground .bar-button-primaryTwo-ios.activated,
+.toolbar-ios-quoteBackground .bar-button-default.bar-button-ios-primaryTwo.activated,
+.toolbar-ios-quoteBackground .bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-quoteBackground .bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-quoteBackground .bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-quoteBackground .bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-quoteBackground .bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-ios-quoteBackground .bar-button-secondary-ios,
 .toolbar-ios-quoteBackground .bar-button-default.bar-button-ios-secondary,
 .toolbar-ios-quoteBackground .bar-button-clear-ios-secondary {
@@ -24744,6 +28022,46 @@ ion-navbar.toolbar {
 .toolbar-ios-quoteBackground .bar-button-solid-ios-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-ios-quoteBackground .bar-button-secondaryT-ios,
+.toolbar-ios-quoteBackground .bar-button-default.bar-button-ios-secondaryT,
+.toolbar-ios-quoteBackground .bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-quoteBackground .bar-button-secondaryT-ios:hover:not(.disable-hover),
+.toolbar-ios-quoteBackground .bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.toolbar-ios-quoteBackground .bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-ios-quoteBackground .bar-button-secondaryT-ios.activated,
+.toolbar-ios-quoteBackground .bar-button-default.bar-button-ios-secondaryT.activated,
+.toolbar-ios-quoteBackground .bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-quoteBackground .bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-quoteBackground .bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-quoteBackground .bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-quoteBackground .bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-ios-quoteBackground .bar-button-danger-ios,
@@ -25036,6 +28354,46 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-ios-altQuoteBackground .bar-button-primaryTwo-ios,
+.toolbar-ios-altQuoteBackground .bar-button-default.bar-button-ios-primaryTwo,
+.toolbar-ios-altQuoteBackground .bar-button-clear-ios-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-primaryTwo-ios:hover:not(.disable-hover),
+.toolbar-ios-altQuoteBackground .bar-button-default.bar-button-ios-primaryTwo:hover:not(.disable-hover),
+.toolbar-ios-altQuoteBackground .bar-button-clear-ios-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-primaryTwo-ios.activated,
+.toolbar-ios-altQuoteBackground .bar-button-default.bar-button-ios-primaryTwo.activated,
+.toolbar-ios-altQuoteBackground .bar-button-clear-ios-primaryTwo.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-outline-ios-primaryTwo {
+  border-color: #bc7e40;
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-outline-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-solid-ios-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-solid-ios-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-ios-altQuoteBackground .bar-button-secondary-ios,
 .toolbar-ios-altQuoteBackground .bar-button-default.bar-button-ios-secondary,
 .toolbar-ios-altQuoteBackground .bar-button-clear-ios-secondary {
@@ -25074,6 +28432,46 @@ ion-navbar.toolbar {
 .toolbar-ios-altQuoteBackground .bar-button-solid-ios-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-secondaryT-ios,
+.toolbar-ios-altQuoteBackground .bar-button-default.bar-button-ios-secondaryT,
+.toolbar-ios-altQuoteBackground .bar-button-clear-ios-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-secondaryT-ios:hover:not(.disable-hover),
+.toolbar-ios-altQuoteBackground .bar-button-default.bar-button-ios-secondaryT:hover:not(.disable-hover),
+.toolbar-ios-altQuoteBackground .bar-button-clear-ios-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-secondaryT-ios.activated,
+.toolbar-ios-altQuoteBackground .bar-button-default.bar-button-ios-secondaryT.activated,
+.toolbar-ios-altQuoteBackground .bar-button-clear-ios-secondaryT.activated {
+  opacity: .4;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-outline-ios-secondaryT {
+  border-color: #7ad61d;
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-outline-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-solid-ios-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-ios-altQuoteBackground .bar-button-solid-ios-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-ios-altQuoteBackground .bar-button-danger-ios,
@@ -25618,6 +29016,43 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-md-primary .bar-button-primaryTwo-md,
+.toolbar-md-primary .bar-button-clear-md-primaryTwo,
+.toolbar-md-primary .bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-md-primary .bar-button-primaryTwo-md:hover:not(.disable-hover),
+.toolbar-md-primary .bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.toolbar-md-primary .bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-md-primary .bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-md-primary .bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primary .bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.toolbar-md-primary .bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-md-primary .bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-md-primary .bar-button-secondary-md,
 .toolbar-md-primary .bar-button-clear-md-secondary,
 .toolbar-md-primary .bar-button-md-secondary {
@@ -25653,6 +29088,43 @@ ion-navbar.toolbar {
 .toolbar-md-primary .bar-button-solid-md-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-md-primary .bar-button-secondaryT-md,
+.toolbar-md-primary .bar-button-clear-md-secondaryT,
+.toolbar-md-primary .bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-md-primary .bar-button-secondaryT-md:hover:not(.disable-hover),
+.toolbar-md-primary .bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.toolbar-md-primary .bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-md-primary .bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-md-primary .bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primary .bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.toolbar-md-primary .bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-md-primary .bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-md-primary .bar-button-danger-md,
@@ -25877,6 +29349,397 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-md-primaryTwo .toolbar-background-md {
+  background: #bc7e40;
+}
+
+.toolbar-md-primaryTwo .bar-button-clear-md,
+.toolbar-md-primaryTwo .bar-button-default-md,
+.toolbar-md-primaryTwo .bar-button-outline-md,
+.toolbar-md-primaryTwo .toolbar-title-md {
+  color: #fff;
+}
+
+.toolbar-md-primaryTwo .bar-button-clear-md .button-effect,
+.toolbar-md-primaryTwo .bar-button-default-md .button-effect,
+.toolbar-md-primaryTwo .bar-button-outline-md .button-effect {
+  background-color: #fff;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md {
+  border-color: #fff;
+}
+
+.toolbar-md-primaryTwo .bar-button-primary-md,
+.toolbar-md-primaryTwo .bar-button-clear-md-primary,
+.toolbar-md-primaryTwo .bar-button-md-primary {
+  color: #ffbb00;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-primary-md:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-clear-md-primary:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-md-primary:hover:not(.disable-hover) {
+  color: #ffbb00;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-primary {
+  border-color: #ffc014;
+  color: #ffc014;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-primary.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-primary .button-effect {
+  background-color: #ffc014;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-primary {
+  color: #424242;
+  background-color: #ffbb00;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-primary.activated {
+  color: #424242;
+  background-color: #ffc014;
+}
+
+.toolbar-md-primaryTwo .bar-button-primaryTwo-md,
+.toolbar-md-primaryTwo .bar-button-clear-md-primaryTwo,
+.toolbar-md-primaryTwo .bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-primaryTwo-md:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-md-primaryTwo .bar-button-secondary-md,
+.toolbar-md-primaryTwo .bar-button-clear-md-secondary,
+.toolbar-md-primaryTwo .bar-button-md-secondary {
+  color: #32db64;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-secondary-md:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-clear-md-secondary:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-md-secondary:hover:not(.disable-hover) {
+  color: #32db64;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-secondary {
+  border-color: #2ec95c;
+  color: #2ec95c;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-secondary.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-secondary .button-effect {
+  background-color: #2ec95c;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-secondary {
+  color: #fff;
+  background-color: #32db64;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-secondary.activated {
+  color: #fff;
+  background-color: #2ec95c;
+}
+
+.toolbar-md-primaryTwo .bar-button-secondaryT-md,
+.toolbar-md-primaryTwo .bar-button-clear-md-secondaryT,
+.toolbar-md-primaryTwo .bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-secondaryT-md:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-md-primaryTwo .bar-button-danger-md,
+.toolbar-md-primaryTwo .bar-button-clear-md-danger,
+.toolbar-md-primaryTwo .bar-button-md-danger {
+  color: #f53d3d;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-danger-md:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-clear-md-danger:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-md-danger:hover:not(.disable-hover) {
+  color: #f53d3d;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-danger {
+  border-color: #e13838;
+  color: #e13838;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-danger.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-danger .button-effect {
+  background-color: #e13838;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-danger {
+  color: #fff;
+  background-color: #f53d3d;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-danger.activated {
+  color: #fff;
+  background-color: #e13838;
+}
+
+.toolbar-md-primaryTwo .bar-button-light-md,
+.toolbar-md-primaryTwo .bar-button-clear-md-light,
+.toolbar-md-primaryTwo .bar-button-md-light {
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-light-md:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-clear-md-light:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-md-light:hover:not(.disable-hover) {
+  color: #f4f4f4;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-light {
+  border-color: #e0e0e0;
+  color: #e0e0e0;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-light.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-light .button-effect {
+  background-color: #e0e0e0;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-light {
+  color: #424242;
+  background-color: #f4f4f4;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-light.activated {
+  color: #424242;
+  background-color: #e0e0e0;
+}
+
+.toolbar-md-primaryTwo .bar-button-dark-md,
+.toolbar-md-primaryTwo .bar-button-clear-md-dark,
+.toolbar-md-primaryTwo .bar-button-md-dark {
+  color: #222;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-dark-md:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-clear-md-dark:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-md-dark:hover:not(.disable-hover) {
+  color: #222;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-dark {
+  border-color: #343434;
+  color: #343434;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-dark.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-dark .button-effect {
+  background-color: #343434;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-dark {
+  color: #fff;
+  background-color: #222;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-dark.activated {
+  color: #fff;
+  background-color: #343434;
+}
+
+.toolbar-md-primaryTwo .bar-button-quoteBackground-md,
+.toolbar-md-primaryTwo .bar-button-clear-md-quoteBackground,
+.toolbar-md-primaryTwo .bar-button-md-quoteBackground {
+  color: #f2f7c0;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-quoteBackground-md:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-clear-md-quoteBackground:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-md-quoteBackground:hover:not(.disable-hover) {
+  color: #f2f7c0;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-quoteBackground {
+  border-color: #dfe3b1;
+  color: #dfe3b1;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-quoteBackground.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-quoteBackground .button-effect {
+  background-color: #dfe3b1;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-quoteBackground {
+  color: #424242;
+  background-color: #f2f7c0;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-quoteBackground.activated {
+  color: #424242;
+  background-color: #dfe3b1;
+}
+
+.toolbar-md-primaryTwo .bar-button-altQuoteBackground-md,
+.toolbar-md-primaryTwo .bar-button-clear-md-altQuoteBackground,
+.toolbar-md-primaryTwo .bar-button-md-altQuoteBackground {
+  color: #f9ebc2;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-altQuoteBackground-md:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-clear-md-altQuoteBackground:hover:not(.disable-hover),
+.toolbar-md-primaryTwo .bar-button-md-altQuoteBackground:hover:not(.disable-hover) {
+  color: #f9ebc2;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-altQuoteBackground {
+  border-color: #e5d8b2;
+  color: #e5d8b2;
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-altQuoteBackground.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-primaryTwo .bar-button-outline-md-altQuoteBackground .button-effect {
+  background-color: #e5d8b2;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-altQuoteBackground {
+  color: #424242;
+  background-color: #f9ebc2;
+}
+
+.toolbar-md-primaryTwo .bar-button-solid-md-altQuoteBackground.activated {
+  color: #424242;
+  background-color: #e5d8b2;
+}
+
+.bar-button-primaryTwo-md,
+.bar-button-clear-md-primaryTwo,
+.bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.bar-button-primaryTwo-md:hover:not(.disable-hover),
+.bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-md-secondary .toolbar-background-md {
   background: #32db64;
 }
@@ -25935,6 +29798,43 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-md-secondary .bar-button-primaryTwo-md,
+.toolbar-md-secondary .bar-button-clear-md-primaryTwo,
+.toolbar-md-secondary .bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-md-secondary .bar-button-primaryTwo-md:hover:not(.disable-hover),
+.toolbar-md-secondary .bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.toolbar-md-secondary .bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-md-secondary .bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-md-secondary .bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondary .bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.toolbar-md-secondary .bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-md-secondary .bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-md-secondary .bar-button-secondary-md,
 .toolbar-md-secondary .bar-button-clear-md-secondary,
 .toolbar-md-secondary .bar-button-md-secondary {
@@ -25970,6 +29870,43 @@ ion-navbar.toolbar {
 .toolbar-md-secondary .bar-button-solid-md-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-md-secondary .bar-button-secondaryT-md,
+.toolbar-md-secondary .bar-button-clear-md-secondaryT,
+.toolbar-md-secondary .bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-md-secondary .bar-button-secondaryT-md:hover:not(.disable-hover),
+.toolbar-md-secondary .bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.toolbar-md-secondary .bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-md-secondary .bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-md-secondary .bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondary .bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.toolbar-md-secondary .bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-md-secondary .bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-md-secondary .bar-button-danger-md,
@@ -26194,6 +30131,397 @@ ion-navbar.toolbar {
   background-color: #2ec95c;
 }
 
+.toolbar-md-secondaryT .toolbar-background-md {
+  background: #7ad61d;
+}
+
+.toolbar-md-secondaryT .bar-button-clear-md,
+.toolbar-md-secondaryT .bar-button-default-md,
+.toolbar-md-secondaryT .bar-button-outline-md,
+.toolbar-md-secondaryT .toolbar-title-md {
+  color: #fff;
+}
+
+.toolbar-md-secondaryT .bar-button-clear-md .button-effect,
+.toolbar-md-secondaryT .bar-button-default-md .button-effect,
+.toolbar-md-secondaryT .bar-button-outline-md .button-effect {
+  background-color: #fff;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md {
+  border-color: #fff;
+}
+
+.toolbar-md-secondaryT .bar-button-primary-md,
+.toolbar-md-secondaryT .bar-button-clear-md-primary,
+.toolbar-md-secondaryT .bar-button-md-primary {
+  color: #ffbb00;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-primary-md:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-clear-md-primary:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-md-primary:hover:not(.disable-hover) {
+  color: #ffbb00;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-primary {
+  border-color: #ffc014;
+  color: #ffc014;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-primary.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-primary .button-effect {
+  background-color: #ffc014;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-primary {
+  color: #424242;
+  background-color: #ffbb00;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-primary.activated {
+  color: #424242;
+  background-color: #ffc014;
+}
+
+.toolbar-md-secondaryT .bar-button-primaryTwo-md,
+.toolbar-md-secondaryT .bar-button-clear-md-primaryTwo,
+.toolbar-md-secondaryT .bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-primaryTwo-md:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-md-secondaryT .bar-button-secondary-md,
+.toolbar-md-secondaryT .bar-button-clear-md-secondary,
+.toolbar-md-secondaryT .bar-button-md-secondary {
+  color: #32db64;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-secondary-md:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-clear-md-secondary:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-md-secondary:hover:not(.disable-hover) {
+  color: #32db64;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-secondary {
+  border-color: #2ec95c;
+  color: #2ec95c;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-secondary.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-secondary .button-effect {
+  background-color: #2ec95c;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-secondary {
+  color: #fff;
+  background-color: #32db64;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-secondary.activated {
+  color: #fff;
+  background-color: #2ec95c;
+}
+
+.toolbar-md-secondaryT .bar-button-secondaryT-md,
+.toolbar-md-secondaryT .bar-button-clear-md-secondaryT,
+.toolbar-md-secondaryT .bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-secondaryT-md:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-md-secondaryT .bar-button-danger-md,
+.toolbar-md-secondaryT .bar-button-clear-md-danger,
+.toolbar-md-secondaryT .bar-button-md-danger {
+  color: #f53d3d;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-danger-md:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-clear-md-danger:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-md-danger:hover:not(.disable-hover) {
+  color: #f53d3d;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-danger {
+  border-color: #e13838;
+  color: #e13838;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-danger.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-danger .button-effect {
+  background-color: #e13838;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-danger {
+  color: #fff;
+  background-color: #f53d3d;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-danger.activated {
+  color: #fff;
+  background-color: #e13838;
+}
+
+.toolbar-md-secondaryT .bar-button-light-md,
+.toolbar-md-secondaryT .bar-button-clear-md-light,
+.toolbar-md-secondaryT .bar-button-md-light {
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-light-md:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-clear-md-light:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-md-light:hover:not(.disable-hover) {
+  color: #f4f4f4;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-light {
+  border-color: #e0e0e0;
+  color: #e0e0e0;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-light.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-light .button-effect {
+  background-color: #e0e0e0;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-light {
+  color: #424242;
+  background-color: #f4f4f4;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-light.activated {
+  color: #424242;
+  background-color: #e0e0e0;
+}
+
+.toolbar-md-secondaryT .bar-button-dark-md,
+.toolbar-md-secondaryT .bar-button-clear-md-dark,
+.toolbar-md-secondaryT .bar-button-md-dark {
+  color: #222;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-dark-md:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-clear-md-dark:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-md-dark:hover:not(.disable-hover) {
+  color: #222;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-dark {
+  border-color: #343434;
+  color: #343434;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-dark.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-dark .button-effect {
+  background-color: #343434;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-dark {
+  color: #fff;
+  background-color: #222;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-dark.activated {
+  color: #fff;
+  background-color: #343434;
+}
+
+.toolbar-md-secondaryT .bar-button-quoteBackground-md,
+.toolbar-md-secondaryT .bar-button-clear-md-quoteBackground,
+.toolbar-md-secondaryT .bar-button-md-quoteBackground {
+  color: #f2f7c0;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-quoteBackground-md:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-clear-md-quoteBackground:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-md-quoteBackground:hover:not(.disable-hover) {
+  color: #f2f7c0;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-quoteBackground {
+  border-color: #dfe3b1;
+  color: #dfe3b1;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-quoteBackground.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-quoteBackground .button-effect {
+  background-color: #dfe3b1;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-quoteBackground {
+  color: #424242;
+  background-color: #f2f7c0;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-quoteBackground.activated {
+  color: #424242;
+  background-color: #dfe3b1;
+}
+
+.toolbar-md-secondaryT .bar-button-altQuoteBackground-md,
+.toolbar-md-secondaryT .bar-button-clear-md-altQuoteBackground,
+.toolbar-md-secondaryT .bar-button-md-altQuoteBackground {
+  color: #f9ebc2;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-altQuoteBackground-md:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-clear-md-altQuoteBackground:hover:not(.disable-hover),
+.toolbar-md-secondaryT .bar-button-md-altQuoteBackground:hover:not(.disable-hover) {
+  color: #f9ebc2;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-altQuoteBackground {
+  border-color: #e5d8b2;
+  color: #e5d8b2;
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-altQuoteBackground.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-secondaryT .bar-button-outline-md-altQuoteBackground .button-effect {
+  background-color: #e5d8b2;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-altQuoteBackground {
+  color: #424242;
+  background-color: #f9ebc2;
+}
+
+.toolbar-md-secondaryT .bar-button-solid-md-altQuoteBackground.activated {
+  color: #424242;
+  background-color: #e5d8b2;
+}
+
+.bar-button-secondaryT-md,
+.bar-button-clear-md-secondaryT,
+.bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.bar-button-secondaryT-md:hover:not(.disable-hover),
+.bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
 .toolbar-md-danger .toolbar-background-md {
   background: #f53d3d;
 }
@@ -26252,6 +30580,43 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-md-danger .bar-button-primaryTwo-md,
+.toolbar-md-danger .bar-button-clear-md-primaryTwo,
+.toolbar-md-danger .bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-md-danger .bar-button-primaryTwo-md:hover:not(.disable-hover),
+.toolbar-md-danger .bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.toolbar-md-danger .bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-md-danger .bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-md-danger .bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-danger .bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.toolbar-md-danger .bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-md-danger .bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-md-danger .bar-button-secondary-md,
 .toolbar-md-danger .bar-button-clear-md-secondary,
 .toolbar-md-danger .bar-button-md-secondary {
@@ -26287,6 +30652,43 @@ ion-navbar.toolbar {
 .toolbar-md-danger .bar-button-solid-md-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-md-danger .bar-button-secondaryT-md,
+.toolbar-md-danger .bar-button-clear-md-secondaryT,
+.toolbar-md-danger .bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-md-danger .bar-button-secondaryT-md:hover:not(.disable-hover),
+.toolbar-md-danger .bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.toolbar-md-danger .bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-md-danger .bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-md-danger .bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-danger .bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.toolbar-md-danger .bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-md-danger .bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-md-danger .bar-button-danger-md,
@@ -26569,6 +30971,43 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-md-light .bar-button-primaryTwo-md,
+.toolbar-md-light .bar-button-clear-md-primaryTwo,
+.toolbar-md-light .bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-md-light .bar-button-primaryTwo-md:hover:not(.disable-hover),
+.toolbar-md-light .bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.toolbar-md-light .bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-md-light .bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-md-light .bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-light .bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.toolbar-md-light .bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-md-light .bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-md-light .bar-button-secondary-md,
 .toolbar-md-light .bar-button-clear-md-secondary,
 .toolbar-md-light .bar-button-md-secondary {
@@ -26604,6 +31043,43 @@ ion-navbar.toolbar {
 .toolbar-md-light .bar-button-solid-md-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-md-light .bar-button-secondaryT-md,
+.toolbar-md-light .bar-button-clear-md-secondaryT,
+.toolbar-md-light .bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-md-light .bar-button-secondaryT-md:hover:not(.disable-hover),
+.toolbar-md-light .bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.toolbar-md-light .bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-md-light .bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-md-light .bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-light .bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.toolbar-md-light .bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-md-light .bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-md-light .bar-button-danger-md,
@@ -26886,6 +31362,43 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-md-dark .bar-button-primaryTwo-md,
+.toolbar-md-dark .bar-button-clear-md-primaryTwo,
+.toolbar-md-dark .bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-md-dark .bar-button-primaryTwo-md:hover:not(.disable-hover),
+.toolbar-md-dark .bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.toolbar-md-dark .bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-md-dark .bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-md-dark .bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-dark .bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.toolbar-md-dark .bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-md-dark .bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-md-dark .bar-button-secondary-md,
 .toolbar-md-dark .bar-button-clear-md-secondary,
 .toolbar-md-dark .bar-button-md-secondary {
@@ -26921,6 +31434,43 @@ ion-navbar.toolbar {
 .toolbar-md-dark .bar-button-solid-md-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-md-dark .bar-button-secondaryT-md,
+.toolbar-md-dark .bar-button-clear-md-secondaryT,
+.toolbar-md-dark .bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-md-dark .bar-button-secondaryT-md:hover:not(.disable-hover),
+.toolbar-md-dark .bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.toolbar-md-dark .bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-md-dark .bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-md-dark .bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-dark .bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.toolbar-md-dark .bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-md-dark .bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-md-dark .bar-button-danger-md,
@@ -27203,6 +31753,43 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-md-quoteBackground .bar-button-primaryTwo-md,
+.toolbar-md-quoteBackground .bar-button-clear-md-primaryTwo,
+.toolbar-md-quoteBackground .bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-md-quoteBackground .bar-button-primaryTwo-md:hover:not(.disable-hover),
+.toolbar-md-quoteBackground .bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.toolbar-md-quoteBackground .bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-md-quoteBackground .bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-md-quoteBackground .bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-quoteBackground .bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.toolbar-md-quoteBackground .bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-md-quoteBackground .bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-md-quoteBackground .bar-button-secondary-md,
 .toolbar-md-quoteBackground .bar-button-clear-md-secondary,
 .toolbar-md-quoteBackground .bar-button-md-secondary {
@@ -27238,6 +31825,43 @@ ion-navbar.toolbar {
 .toolbar-md-quoteBackground .bar-button-solid-md-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-md-quoteBackground .bar-button-secondaryT-md,
+.toolbar-md-quoteBackground .bar-button-clear-md-secondaryT,
+.toolbar-md-quoteBackground .bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-md-quoteBackground .bar-button-secondaryT-md:hover:not(.disable-hover),
+.toolbar-md-quoteBackground .bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.toolbar-md-quoteBackground .bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-md-quoteBackground .bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-md-quoteBackground .bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-quoteBackground .bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.toolbar-md-quoteBackground .bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-md-quoteBackground .bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-md-quoteBackground .bar-button-danger-md,
@@ -27520,6 +32144,43 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-md-altQuoteBackground .bar-button-primaryTwo-md,
+.toolbar-md-altQuoteBackground .bar-button-clear-md-primaryTwo,
+.toolbar-md-altQuoteBackground .bar-button-md-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-primaryTwo-md:hover:not(.disable-hover),
+.toolbar-md-altQuoteBackground .bar-button-clear-md-primaryTwo:hover:not(.disable-hover),
+.toolbar-md-altQuoteBackground .bar-button-md-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-outline-md-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-outline-md-primaryTwo.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-outline-md-primaryTwo .button-effect {
+  background-color: #c1884f;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-solid-md-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-solid-md-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-md-altQuoteBackground .bar-button-secondary-md,
 .toolbar-md-altQuoteBackground .bar-button-clear-md-secondary,
 .toolbar-md-altQuoteBackground .bar-button-md-secondary {
@@ -27555,6 +32216,43 @@ ion-navbar.toolbar {
 .toolbar-md-altQuoteBackground .bar-button-solid-md-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-secondaryT-md,
+.toolbar-md-altQuoteBackground .bar-button-clear-md-secondaryT,
+.toolbar-md-altQuoteBackground .bar-button-md-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-secondaryT-md:hover:not(.disable-hover),
+.toolbar-md-altQuoteBackground .bar-button-clear-md-secondaryT:hover:not(.disable-hover),
+.toolbar-md-altQuoteBackground .bar-button-md-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-outline-md-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-outline-md-secondaryT.activated {
+  background-color: transparent;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-outline-md-secondaryT .button-effect {
+  background-color: #85d92f;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-solid-md-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-md-altQuoteBackground .bar-button-solid-md-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-md-altQuoteBackground .bar-button-danger-md,
@@ -28040,6 +32738,40 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-wp-primary .bar-button-primaryTwo-wp,
+.toolbar-wp-primary .bar-button-clear-wp-primaryTwo,
+.toolbar-wp-primary .bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-wp-primary .bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.toolbar-wp-primary .bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.toolbar-wp-primary .bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-wp-primary .bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-wp-primary .bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-primary .bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-wp-primary .bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-wp-primary .bar-button-secondary-wp,
 .toolbar-wp-primary .bar-button-clear-wp-secondary,
 .toolbar-wp-primary .bar-button-wp-secondary {
@@ -28072,6 +32804,40 @@ ion-navbar.toolbar {
 .toolbar-wp-primary .bar-button-solid-wp-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-wp-primary .bar-button-secondaryT-wp,
+.toolbar-wp-primary .bar-button-clear-wp-secondaryT,
+.toolbar-wp-primary .bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-wp-primary .bar-button-secondaryT-wp:hover:not(.disable-hover),
+.toolbar-wp-primary .bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.toolbar-wp-primary .bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-wp-primary .bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-wp-primary .bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-primary .bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-wp-primary .bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-wp-primary .bar-button-danger-wp,
@@ -28278,6 +33044,361 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-wp-primaryTwo .toolbar-background-wp {
+  background: #bc7e40;
+}
+
+.toolbar-wp-primaryTwo .bar-button-clear-wp,
+.toolbar-wp-primaryTwo .bar-button-default-wp,
+.toolbar-wp-primaryTwo .bar-button-outline-wp,
+.toolbar-wp-primaryTwo .toolbar-title-wp {
+  color: #fff;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp {
+  border-color: #fff;
+}
+
+.toolbar-wp-primaryTwo .bar-button-primary-wp,
+.toolbar-wp-primaryTwo .bar-button-clear-wp-primary,
+.toolbar-wp-primaryTwo .bar-button-wp-primary {
+  color: #ffbb00;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-primary-wp:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-clear-wp-primary:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-wp-primary:hover:not(.disable-hover) {
+  color: #ffbb00;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-primary {
+  border-color: #ffc014;
+  color: #ffc014;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-primary.activated {
+  color: #000;
+  background-color: #ffc014;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-primary {
+  color: #000;
+  background-color: #ffbb00;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-primary.activated {
+  color: #000;
+  background-color: #ffc014;
+}
+
+.toolbar-wp-primaryTwo .bar-button-primaryTwo-wp,
+.toolbar-wp-primaryTwo .bar-button-clear-wp-primaryTwo,
+.toolbar-wp-primaryTwo .bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-primaryTwo .bar-button-secondary-wp,
+.toolbar-wp-primaryTwo .bar-button-clear-wp-secondary,
+.toolbar-wp-primaryTwo .bar-button-wp-secondary {
+  color: #32db64;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-secondary-wp:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-clear-wp-secondary:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-wp-secondary:hover:not(.disable-hover) {
+  color: #32db64;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-secondary {
+  border-color: #2ec95c;
+  color: #2ec95c;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-secondary.activated {
+  color: #fff;
+  background-color: #2ec95c;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-secondary {
+  color: #fff;
+  background-color: #32db64;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-secondary.activated {
+  color: #fff;
+  background-color: #2ec95c;
+}
+
+.toolbar-wp-primaryTwo .bar-button-secondaryT-wp,
+.toolbar-wp-primaryTwo .bar-button-clear-wp-secondaryT,
+.toolbar-wp-primaryTwo .bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-secondaryT-wp:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-primaryTwo .bar-button-danger-wp,
+.toolbar-wp-primaryTwo .bar-button-clear-wp-danger,
+.toolbar-wp-primaryTwo .bar-button-wp-danger {
+  color: #f53d3d;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-danger-wp:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-clear-wp-danger:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-wp-danger:hover:not(.disable-hover) {
+  color: #f53d3d;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-danger {
+  border-color: #e13838;
+  color: #e13838;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-danger.activated {
+  color: #fff;
+  background-color: #e13838;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-danger {
+  color: #fff;
+  background-color: #f53d3d;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-danger.activated {
+  color: #fff;
+  background-color: #e13838;
+}
+
+.toolbar-wp-primaryTwo .bar-button-light-wp,
+.toolbar-wp-primaryTwo .bar-button-clear-wp-light,
+.toolbar-wp-primaryTwo .bar-button-wp-light {
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-light-wp:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-clear-wp-light:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-wp-light:hover:not(.disable-hover) {
+  color: #f4f4f4;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-light {
+  border-color: #e0e0e0;
+  color: #e0e0e0;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-light.activated {
+  color: #000;
+  background-color: #e0e0e0;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-light {
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-light.activated {
+  color: #000;
+  background-color: #e0e0e0;
+}
+
+.toolbar-wp-primaryTwo .bar-button-dark-wp,
+.toolbar-wp-primaryTwo .bar-button-clear-wp-dark,
+.toolbar-wp-primaryTwo .bar-button-wp-dark {
+  color: #222;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-dark-wp:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-clear-wp-dark:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-wp-dark:hover:not(.disable-hover) {
+  color: #222;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-dark {
+  border-color: #343434;
+  color: #343434;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-dark.activated {
+  color: #fff;
+  background-color: #343434;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-dark {
+  color: #fff;
+  background-color: #222;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-dark.activated {
+  color: #fff;
+  background-color: #343434;
+}
+
+.toolbar-wp-primaryTwo .bar-button-quoteBackground-wp,
+.toolbar-wp-primaryTwo .bar-button-clear-wp-quoteBackground,
+.toolbar-wp-primaryTwo .bar-button-wp-quoteBackground {
+  color: #f2f7c0;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-quoteBackground-wp:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-clear-wp-quoteBackground:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-wp-quoteBackground:hover:not(.disable-hover) {
+  color: #f2f7c0;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-quoteBackground {
+  border-color: #dfe3b1;
+  color: #dfe3b1;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-quoteBackground.activated {
+  color: #000;
+  background-color: #dfe3b1;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-quoteBackground {
+  color: #000;
+  background-color: #f2f7c0;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-quoteBackground.activated {
+  color: #000;
+  background-color: #dfe3b1;
+}
+
+.toolbar-wp-primaryTwo .bar-button-altQuoteBackground-wp,
+.toolbar-wp-primaryTwo .bar-button-clear-wp-altQuoteBackground,
+.toolbar-wp-primaryTwo .bar-button-wp-altQuoteBackground {
+  color: #f9ebc2;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-altQuoteBackground-wp:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-clear-wp-altQuoteBackground:hover:not(.disable-hover),
+.toolbar-wp-primaryTwo .bar-button-wp-altQuoteBackground:hover:not(.disable-hover) {
+  color: #f9ebc2;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-altQuoteBackground {
+  border-color: #e5d8b2;
+  color: #e5d8b2;
+  background-color: transparent;
+}
+
+.toolbar-wp-primaryTwo .bar-button-outline-wp-altQuoteBackground.activated {
+  color: #000;
+  background-color: #e5d8b2;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-altQuoteBackground {
+  color: #000;
+  background-color: #f9ebc2;
+}
+
+.toolbar-wp-primaryTwo .bar-button-solid-wp-altQuoteBackground.activated {
+  color: #000;
+  background-color: #e5d8b2;
+}
+
+.bar-button-primaryTwo-wp,
+.bar-button-clear-wp-primaryTwo,
+.bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-wp-secondary .toolbar-background-wp {
   background: #32db64;
 }
@@ -28327,6 +33448,40 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-wp-secondary .bar-button-primaryTwo-wp,
+.toolbar-wp-secondary .bar-button-clear-wp-primaryTwo,
+.toolbar-wp-secondary .bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondary .bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.toolbar-wp-secondary .bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.toolbar-wp-secondary .bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-wp-secondary .bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondary .bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-secondary .bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-wp-secondary .bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-wp-secondary .bar-button-secondary-wp,
 .toolbar-wp-secondary .bar-button-clear-wp-secondary,
 .toolbar-wp-secondary .bar-button-wp-secondary {
@@ -28359,6 +33514,40 @@ ion-navbar.toolbar {
 .toolbar-wp-secondary .bar-button-solid-wp-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-wp-secondary .bar-button-secondaryT-wp,
+.toolbar-wp-secondary .bar-button-clear-wp-secondaryT,
+.toolbar-wp-secondary .bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondary .bar-button-secondaryT-wp:hover:not(.disable-hover),
+.toolbar-wp-secondary .bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.toolbar-wp-secondary .bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-wp-secondary .bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondary .bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-secondary .bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-wp-secondary .bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-wp-secondary .bar-button-danger-wp,
@@ -28565,6 +33754,361 @@ ion-navbar.toolbar {
   background-color: #2ec95c;
 }
 
+.toolbar-wp-secondaryT .toolbar-background-wp {
+  background: #7ad61d;
+}
+
+.toolbar-wp-secondaryT .bar-button-clear-wp,
+.toolbar-wp-secondaryT .bar-button-default-wp,
+.toolbar-wp-secondaryT .bar-button-outline-wp,
+.toolbar-wp-secondaryT .toolbar-title-wp {
+  color: #fff;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp {
+  border-color: #fff;
+}
+
+.toolbar-wp-secondaryT .bar-button-primary-wp,
+.toolbar-wp-secondaryT .bar-button-clear-wp-primary,
+.toolbar-wp-secondaryT .bar-button-wp-primary {
+  color: #ffbb00;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-primary-wp:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-clear-wp-primary:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-wp-primary:hover:not(.disable-hover) {
+  color: #ffbb00;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-primary {
+  border-color: #ffc014;
+  color: #ffc014;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-primary.activated {
+  color: #000;
+  background-color: #ffc014;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-primary {
+  color: #000;
+  background-color: #ffbb00;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-primary.activated {
+  color: #000;
+  background-color: #ffc014;
+}
+
+.toolbar-wp-secondaryT .bar-button-primaryTwo-wp,
+.toolbar-wp-secondaryT .bar-button-clear-wp-primaryTwo,
+.toolbar-wp-secondaryT .bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-secondaryT .bar-button-secondary-wp,
+.toolbar-wp-secondaryT .bar-button-clear-wp-secondary,
+.toolbar-wp-secondaryT .bar-button-wp-secondary {
+  color: #32db64;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-secondary-wp:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-clear-wp-secondary:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-wp-secondary:hover:not(.disable-hover) {
+  color: #32db64;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-secondary {
+  border-color: #2ec95c;
+  color: #2ec95c;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-secondary.activated {
+  color: #fff;
+  background-color: #2ec95c;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-secondary {
+  color: #fff;
+  background-color: #32db64;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-secondary.activated {
+  color: #fff;
+  background-color: #2ec95c;
+}
+
+.toolbar-wp-secondaryT .bar-button-secondaryT-wp,
+.toolbar-wp-secondaryT .bar-button-clear-wp-secondaryT,
+.toolbar-wp-secondaryT .bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-secondaryT-wp:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-secondaryT .bar-button-danger-wp,
+.toolbar-wp-secondaryT .bar-button-clear-wp-danger,
+.toolbar-wp-secondaryT .bar-button-wp-danger {
+  color: #f53d3d;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-danger-wp:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-clear-wp-danger:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-wp-danger:hover:not(.disable-hover) {
+  color: #f53d3d;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-danger {
+  border-color: #e13838;
+  color: #e13838;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-danger.activated {
+  color: #fff;
+  background-color: #e13838;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-danger {
+  color: #fff;
+  background-color: #f53d3d;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-danger.activated {
+  color: #fff;
+  background-color: #e13838;
+}
+
+.toolbar-wp-secondaryT .bar-button-light-wp,
+.toolbar-wp-secondaryT .bar-button-clear-wp-light,
+.toolbar-wp-secondaryT .bar-button-wp-light {
+  color: #f4f4f4;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-light-wp:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-clear-wp-light:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-wp-light:hover:not(.disable-hover) {
+  color: #f4f4f4;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-light {
+  border-color: #e0e0e0;
+  color: #e0e0e0;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-light.activated {
+  color: #000;
+  background-color: #e0e0e0;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-light {
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-light.activated {
+  color: #000;
+  background-color: #e0e0e0;
+}
+
+.toolbar-wp-secondaryT .bar-button-dark-wp,
+.toolbar-wp-secondaryT .bar-button-clear-wp-dark,
+.toolbar-wp-secondaryT .bar-button-wp-dark {
+  color: #222;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-dark-wp:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-clear-wp-dark:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-wp-dark:hover:not(.disable-hover) {
+  color: #222;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-dark {
+  border-color: #343434;
+  color: #343434;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-dark.activated {
+  color: #fff;
+  background-color: #343434;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-dark {
+  color: #fff;
+  background-color: #222;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-dark.activated {
+  color: #fff;
+  background-color: #343434;
+}
+
+.toolbar-wp-secondaryT .bar-button-quoteBackground-wp,
+.toolbar-wp-secondaryT .bar-button-clear-wp-quoteBackground,
+.toolbar-wp-secondaryT .bar-button-wp-quoteBackground {
+  color: #f2f7c0;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-quoteBackground-wp:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-clear-wp-quoteBackground:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-wp-quoteBackground:hover:not(.disable-hover) {
+  color: #f2f7c0;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-quoteBackground {
+  border-color: #dfe3b1;
+  color: #dfe3b1;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-quoteBackground.activated {
+  color: #000;
+  background-color: #dfe3b1;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-quoteBackground {
+  color: #000;
+  background-color: #f2f7c0;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-quoteBackground.activated {
+  color: #000;
+  background-color: #dfe3b1;
+}
+
+.toolbar-wp-secondaryT .bar-button-altQuoteBackground-wp,
+.toolbar-wp-secondaryT .bar-button-clear-wp-altQuoteBackground,
+.toolbar-wp-secondaryT .bar-button-wp-altQuoteBackground {
+  color: #f9ebc2;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-altQuoteBackground-wp:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-clear-wp-altQuoteBackground:hover:not(.disable-hover),
+.toolbar-wp-secondaryT .bar-button-wp-altQuoteBackground:hover:not(.disable-hover) {
+  color: #f9ebc2;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-altQuoteBackground {
+  border-color: #e5d8b2;
+  color: #e5d8b2;
+  background-color: transparent;
+}
+
+.toolbar-wp-secondaryT .bar-button-outline-wp-altQuoteBackground.activated {
+  color: #000;
+  background-color: #e5d8b2;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-altQuoteBackground {
+  color: #000;
+  background-color: #f9ebc2;
+}
+
+.toolbar-wp-secondaryT .bar-button-solid-wp-altQuoteBackground.activated {
+  color: #000;
+  background-color: #e5d8b2;
+}
+
+.bar-button-secondaryT-wp,
+.bar-button-clear-wp-secondaryT,
+.bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.bar-button-secondaryT-wp:hover:not(.disable-hover),
+.bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
 .toolbar-wp-danger .toolbar-background-wp {
   background: #f53d3d;
 }
@@ -28614,6 +34158,40 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-wp-danger .bar-button-primaryTwo-wp,
+.toolbar-wp-danger .bar-button-clear-wp-primaryTwo,
+.toolbar-wp-danger .bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-wp-danger .bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.toolbar-wp-danger .bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.toolbar-wp-danger .bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-wp-danger .bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-wp-danger .bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-danger .bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-wp-danger .bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-wp-danger .bar-button-secondary-wp,
 .toolbar-wp-danger .bar-button-clear-wp-secondary,
 .toolbar-wp-danger .bar-button-wp-secondary {
@@ -28646,6 +34224,40 @@ ion-navbar.toolbar {
 .toolbar-wp-danger .bar-button-solid-wp-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-wp-danger .bar-button-secondaryT-wp,
+.toolbar-wp-danger .bar-button-clear-wp-secondaryT,
+.toolbar-wp-danger .bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-wp-danger .bar-button-secondaryT-wp:hover:not(.disable-hover),
+.toolbar-wp-danger .bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.toolbar-wp-danger .bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-wp-danger .bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-wp-danger .bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-danger .bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-wp-danger .bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-wp-danger .bar-button-danger-wp,
@@ -28901,6 +34513,40 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-wp-light .bar-button-primaryTwo-wp,
+.toolbar-wp-light .bar-button-clear-wp-primaryTwo,
+.toolbar-wp-light .bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-wp-light .bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.toolbar-wp-light .bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.toolbar-wp-light .bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-wp-light .bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-wp-light .bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-light .bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-wp-light .bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-wp-light .bar-button-secondary-wp,
 .toolbar-wp-light .bar-button-clear-wp-secondary,
 .toolbar-wp-light .bar-button-wp-secondary {
@@ -28933,6 +34579,40 @@ ion-navbar.toolbar {
 .toolbar-wp-light .bar-button-solid-wp-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-wp-light .bar-button-secondaryT-wp,
+.toolbar-wp-light .bar-button-clear-wp-secondaryT,
+.toolbar-wp-light .bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-wp-light .bar-button-secondaryT-wp:hover:not(.disable-hover),
+.toolbar-wp-light .bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.toolbar-wp-light .bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-wp-light .bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-wp-light .bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-light .bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-wp-light .bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-wp-light .bar-button-danger-wp,
@@ -29188,6 +34868,40 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-wp-dark .bar-button-primaryTwo-wp,
+.toolbar-wp-dark .bar-button-clear-wp-primaryTwo,
+.toolbar-wp-dark .bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-wp-dark .bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.toolbar-wp-dark .bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.toolbar-wp-dark .bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-wp-dark .bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-wp-dark .bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-dark .bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-wp-dark .bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-wp-dark .bar-button-secondary-wp,
 .toolbar-wp-dark .bar-button-clear-wp-secondary,
 .toolbar-wp-dark .bar-button-wp-secondary {
@@ -29220,6 +34934,40 @@ ion-navbar.toolbar {
 .toolbar-wp-dark .bar-button-solid-wp-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-wp-dark .bar-button-secondaryT-wp,
+.toolbar-wp-dark .bar-button-clear-wp-secondaryT,
+.toolbar-wp-dark .bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-wp-dark .bar-button-secondaryT-wp:hover:not(.disable-hover),
+.toolbar-wp-dark .bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.toolbar-wp-dark .bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-wp-dark .bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-wp-dark .bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-dark .bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-wp-dark .bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-wp-dark .bar-button-danger-wp,
@@ -29475,6 +35223,40 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-wp-quoteBackground .bar-button-primaryTwo-wp,
+.toolbar-wp-quoteBackground .bar-button-clear-wp-primaryTwo,
+.toolbar-wp-quoteBackground .bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-wp-quoteBackground .bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.toolbar-wp-quoteBackground .bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.toolbar-wp-quoteBackground .bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-wp-quoteBackground .bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-wp-quoteBackground .bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-quoteBackground .bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-wp-quoteBackground .bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-wp-quoteBackground .bar-button-secondary-wp,
 .toolbar-wp-quoteBackground .bar-button-clear-wp-secondary,
 .toolbar-wp-quoteBackground .bar-button-wp-secondary {
@@ -29507,6 +35289,40 @@ ion-navbar.toolbar {
 .toolbar-wp-quoteBackground .bar-button-solid-wp-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-wp-quoteBackground .bar-button-secondaryT-wp,
+.toolbar-wp-quoteBackground .bar-button-clear-wp-secondaryT,
+.toolbar-wp-quoteBackground .bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-wp-quoteBackground .bar-button-secondaryT-wp:hover:not(.disable-hover),
+.toolbar-wp-quoteBackground .bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.toolbar-wp-quoteBackground .bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-wp-quoteBackground .bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-wp-quoteBackground .bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-quoteBackground .bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-wp-quoteBackground .bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-wp-quoteBackground .bar-button-danger-wp,
@@ -29762,6 +35578,40 @@ ion-navbar.toolbar {
   background-color: #ffc014;
 }
 
+.toolbar-wp-altQuoteBackground .bar-button-primaryTwo-wp,
+.toolbar-wp-altQuoteBackground .bar-button-clear-wp-primaryTwo,
+.toolbar-wp-altQuoteBackground .bar-button-wp-primaryTwo {
+  color: #bc7e40;
+  background-color: transparent;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-primaryTwo-wp:hover:not(.disable-hover),
+.toolbar-wp-altQuoteBackground .bar-button-clear-wp-primaryTwo:hover:not(.disable-hover),
+.toolbar-wp-altQuoteBackground .bar-button-wp-primaryTwo:hover:not(.disable-hover) {
+  color: #bc7e40;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-outline-wp-primaryTwo {
+  border-color: #c1884f;
+  color: #c1884f;
+  background-color: transparent;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-outline-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-solid-wp-primaryTwo {
+  color: #fff;
+  background-color: #bc7e40;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-solid-wp-primaryTwo.activated {
+  color: #fff;
+  background-color: #c1884f;
+}
+
 .toolbar-wp-altQuoteBackground .bar-button-secondary-wp,
 .toolbar-wp-altQuoteBackground .bar-button-clear-wp-secondary,
 .toolbar-wp-altQuoteBackground .bar-button-wp-secondary {
@@ -29794,6 +35644,40 @@ ion-navbar.toolbar {
 .toolbar-wp-altQuoteBackground .bar-button-solid-wp-secondary.activated {
   color: #fff;
   background-color: #2ec95c;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-secondaryT-wp,
+.toolbar-wp-altQuoteBackground .bar-button-clear-wp-secondaryT,
+.toolbar-wp-altQuoteBackground .bar-button-wp-secondaryT {
+  color: #7ad61d;
+  background-color: transparent;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-secondaryT-wp:hover:not(.disable-hover),
+.toolbar-wp-altQuoteBackground .bar-button-clear-wp-secondaryT:hover:not(.disable-hover),
+.toolbar-wp-altQuoteBackground .bar-button-wp-secondaryT:hover:not(.disable-hover) {
+  color: #7ad61d;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-outline-wp-secondaryT {
+  border-color: #85d92f;
+  color: #85d92f;
+  background-color: transparent;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-outline-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-solid-wp-secondaryT {
+  color: #fff;
+  background-color: #7ad61d;
+}
+
+.toolbar-wp-altQuoteBackground .bar-button-solid-wp-secondaryT.activated {
+  color: #fff;
+  background-color: #85d92f;
 }
 
 .toolbar-wp-altQuoteBackground .bar-button-danger-wp,
@@ -30008,8 +35892,16 @@ ion-navbar.toolbar {
   color: #ffbb00;
 }
 
+.text-ios-primaryTwo {
+  color: #bc7e40;
+}
+
 .text-ios-secondary {
   color: #32db64;
+}
+
+.text-ios-secondaryT {
+  color: #7ad61d;
 }
 
 .text-ios-danger {
@@ -30036,8 +35928,16 @@ ion-navbar.toolbar {
   color: #ffbb00;
 }
 
+.text-md-primaryTwo {
+  color: #bc7e40;
+}
+
 .text-md-secondary {
   color: #32db64;
+}
+
+.text-md-secondaryT {
+  color: #7ad61d;
 }
 
 .text-md-danger {
@@ -30064,8 +35964,16 @@ ion-navbar.toolbar {
   color: #ffbb00;
 }
 
+.text-wp-primaryTwo {
+  color: #bc7e40;
+}
+
 .text-wp-secondary {
   color: #32db64;
+}
+
+.text-wp-secondaryT {
+  color: #7ad61d;
 }
 
 .text-wp-danger {

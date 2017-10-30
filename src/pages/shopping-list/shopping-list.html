@@ -1,0 +1,40 @@
+
+<ion-header>
+  <ion-navbar>
+    <ion-buttons start>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>shopping-list</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form #f="ngForm" (ngSubmit)="0;onAddItem(f)">
+    <ion-list>
+      <ion-item>
+        <ion-label fixed>Name</ion-label>
+        <ion-input type="text" name="ingredientName" placeholder="milk" ngModel required></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label fixed>Amount</ion-label>
+        <ion-input type="number" name="amount" placeholder="2" ngModel required></ion-input>
+      </ion-item>
+    </ion-list>
+    <button color="primaryTwo" ion-button type="submit" block [disabled]="!f.valid">Add Item</button>
+  </form>
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of ingredientList;let i = index;">
+      <ion-item>
+        <h2>{{item.name}} ({{item.amount}})</h2>
+      </ion-item>
+      <ion-item-options>
+        <button ion-button color="danger" (click)="deleteItem(i)"><ion-icon>delete</ion-icon></button>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
+
