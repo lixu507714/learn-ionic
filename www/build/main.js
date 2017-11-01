@@ -125,7 +125,6 @@ var RecipesService = (function () {
     }
     RecipesService.prototype.addRecipe = function (title, description, difficulty, ingredients) {
         this.recipes.push(new __WEBPACK_IMPORTED_MODULE_0__models_recipe__["a" /* Recipes */](title, description, difficulty, ingredients));
-        console.log(this.recipes);
     };
     RecipesService.prototype.getRecipes = function () {
         return this.recipes.slice();
@@ -590,9 +589,6 @@ var RecipesPage = (function () {
     }
     RecipesPage.prototype.ionViewWillEnter = function () {
         this.recipes = this.recipesService.getRecipes();
-        console.log(this.recipes);
-    };
-    RecipesPage.prototype.ngOnInit = function () {
     };
     RecipesPage.prototype.onNewRecipe = function () {
         this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__edit_recipe_edit_recipe__["a" /* EditRecipePage */], { mode: 'New' });
@@ -604,7 +600,7 @@ var RecipesPage = (function () {
 }());
 RecipesPage = __decorate([
     Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
-        selector: 'page-recipes',template:/*ion-inline-start:"/Users/lixu/learn-ionic/src/pages/recipes/recipes.html"*/'\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>recipes</ion-title>\n    <ion-buttons start>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-buttons end>\n      <button ion-button icon-only color="primaryTwo" (click)="onNewRecipe()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n    <button ion-item *ngFor="let recipe of recipes; let i = index;" (click)="onLoadRecipe(recipe, i)">\n      <h3>{{recipe.title}}</h3>\n      <ion-note>{{recipe.difficulty}}</ion-note>\n    </button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/lixu/learn-ionic/src/pages/recipes/recipes.html"*/,
+        selector: 'page-recipes',template:/*ion-inline-start:"/Users/lixu/learn-ionic/src/pages/recipes/recipes.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>recipes</ion-title>\n    <ion-buttons start>\n      <button ion-button menuToggle>\n        <ion-icon name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <ion-buttons end>\n      <button ion-button icon-only color="primaryTwo" (click)="onNewRecipe()">\n        <ion-icon name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-list>\n    <button ion-item *ngFor="let recipe of recipes; let i = index;" (click)="onLoadRecipe(recipe, i)">\n      <h3>{{recipe.title}}</h3>\n      <ion-note>{{recipe.difficulty}}</ion-note>\n    </button>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/lixu/learn-ionic/src/pages/recipes/recipes.html"*/,
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__services_recipes__["a" /* RecipesService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__services_recipes__["a" /* RecipesService */]) === "function" && _c || Object])
 ], RecipesPage);

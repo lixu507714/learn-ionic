@@ -1,4 +1,4 @@
-import {Component, OnInit} from '@angular/core';
+import {Component} from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {EditRecipePage} from "../edit-recipe/edit-recipe";
 import {RecipesService} from "../../services/recipes";
@@ -9,7 +9,7 @@ import {RecipePage} from "../recipe/recipe";
   selector: 'page-recipes',
   templateUrl: 'recipes.html',
 })
-export class RecipesPage implements OnInit{
+export class RecipesPage {
 
   recipes: Recipes[];
   constructor(public navCtrl: NavController,
@@ -19,12 +19,6 @@ export class RecipesPage implements OnInit{
 
   ionViewWillEnter() {
     this.recipes = this.recipesService.getRecipes();
-    console.log(this.recipes);
-  }
-
-  ngOnInit() {
-    
-
   }
 
   onNewRecipe() {
