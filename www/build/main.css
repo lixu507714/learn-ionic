@@ -36288,6 +36288,11 @@ page-quotes .author:before {
   content: '- ';
 }
 
+page-recipe .subtitle {
+  color: #ccc;
+  text-transform: uppercase;
+}
+
 page-users p {
   background-color: #51a7e8;
   padding: 10px;

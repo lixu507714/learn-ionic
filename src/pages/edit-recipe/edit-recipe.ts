@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {ActionSheetController, AlertController, NavController, NavParams, ToastController} from 'ionic-angular';
 import {FormArray, FormControl, FormGroup, Validators} from "@angular/forms";
 import {RecipesService} from "../../services/recipes";
+import {Recipes} from "../../models/recipe";
 
 @Component({
   selector: 'page-edit-recipe',
@@ -12,6 +13,8 @@ export class EditRecipePage implements OnInit {
   mode = 'New';
   selectionOptions = ['Easy', 'hard', 'good'];
   recipeForm :FormGroup;
+  recipe: Recipes;
+  index : number;
   constructor(public navParams: NavParams,
               private actionSheetController: ActionSheetController,
               private alertController: AlertController,
@@ -22,15 +25,31 @@ export class EditRecipePage implements OnInit {
 
   ngOnInit() {
     this.mode = this.navParams.get('mode');
+    if(this.mode === 'Edit') {
+      this.recipe = this.navParams.get('recipe');
+      this.index = this.navParams.get('index');
+    }
     this.initializeForm();
   }
 
   private initializeForm() {
+    let title = null;
+    let description = null;
+    let difficulty = 'Medium';
+    let ingredients = [];
+    if(this.mode === 'Edit') {
+      title = this.recipe.title;
+      description = this.recipe.description;
+      difficulty = this.recipe.difficulty;
+      for(let ingredient of this.recipe.ingredients) {
+          ingredients.push(new FormControl(ingredient.name, Validators.required));
+      }
+    }
     this.recipeForm = new FormGroup({
-      'title':new FormControl(null, Validators.required),
-      'description':new FormControl(null, Validators.required),
-      'difficulty':new FormControl('Medium', Validators.required),
-      'ingredients': new FormArray([])
+      'title':new FormControl(title, Validators.required),
+      'description':new FormControl(description, Validators.required),
+      'difficulty':new FormControl(difficulty, Validators.required),
+      'ingredients': new FormArray(ingredients)
     })
   }
 
@@ -42,8 +61,12 @@ export class EditRecipePage implements OnInit {
         return {name: name, amount: 1};
       })
     }
-    this.recipesService.addRecipe(value.title, value.description, value.difficulty, ingredient);
-    // this.recipeForm.reset();
+    if(this.mode === 'Edit') {
+      this.recipesService.updateRecipe(this.index,value.title, value.description, value.difficulty, ingredient);
+    }else {
+      this.recipesService.addRecipe(value.title, value.description, value.difficulty, ingredient);
+    }
+    this.recipeForm.reset();
     this.navCtrl.popToRoot(); // 返回上一个页面
   }
 

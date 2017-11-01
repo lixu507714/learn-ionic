@@ -8,7 +8,7 @@ export class RecipesService{
             description: string,
             difficulty: string,
             ingredients: Ingredient[]) {
-    this.recipes.push(new Recipes(title, description, difficulty, ingredients))
+    this.recipes.push(new Recipes(title, description, difficulty, ingredients));
     console.log(this.recipes);
   }
 
